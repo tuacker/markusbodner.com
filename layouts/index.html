@@ -1,0 +1,24 @@
+{{ partial "head.html" . }}
+</head>
+<body>
+{{ partial "header.html" . }}
+
+{{ range first 10 .Data.Pages }}
+    <article>
+        <div class="headline">
+            <div class="container">
+                <a href="{{ .Permalink }}">
+                    <h2>{{ .Title }}</h2>
+                </a>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">Posted on {{ .Date.Format "January 02, 2006" }}</time> by {{ .Site.Author.name }} in <i class="fa fa-tags"></i>{{ range .Params.tags }} <a href="{{ $.Site.BaseUrl }}/tags/{{ . | urlize }}" class="tags">{{ . }}</a>.{{ end }}
+            </div>
+        </div>
+        <div class="container post">
+            {{ .Content }}
+        </div>
+    </article>
+{{ end }}
+	<div class="nav-old-posts">
+    	<a href="/post/">Older posts</a>
+    </div>
+{{ partial "footer.html" . }}
