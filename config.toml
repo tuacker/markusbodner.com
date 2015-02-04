@@ -1,3 +1,11 @@
-baseurl = "http://yourSiteHere"
-languageCode = "en-us"
-title = "my new hugo site"
+baseurl = "http://www.markusbodner.com"
+title = "Markus Bodner"
+
+[author]
+	name = "Markus Bodner"
+
+[permalinks]
+	post = ":year/:month/:title/"
+
+[taxonomies]
+	tag = "tags"
