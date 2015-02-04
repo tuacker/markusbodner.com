@@ -112,6 +112,10 @@ a:hover {
 	text-decoration: none;
 }
 
+a.tags {
+	color: #888;
+}
+
 nav a {
 	color: #5d5d5d;
 	text-decoration: none;
@@ -234,7 +238,7 @@ article {
 	padding: 25px 0;
 }
 
-.headline time {
+.headline {
 	font-size: 12px;
 	line-height: 2;
 	color: #888;
