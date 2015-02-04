@@ -3,11 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    {{ `<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->` | safeHtml }}
 
-    <title>{{ .Title }}</title>
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
 
     <!-- CSS,favicon -->
     <link rel="stylesheet" type="text/css" href="/main.css">
@@ -21,9 +19,9 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
 
     <!-- RSS/Cannonical/Open Graph/Twitter Cards/Google -->
-    {{ if .RSSlink }}<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+    <link href="{{ $.Site.BaseUrl }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}">
     
-    <link rel="canonical" href="http://markusbodner.com/2015/01/28/the-only-thing-left-to-do-is-start/" />
+    <link rel="canonical" href="{{ .Permalink }}">
 
-    {{ partial "meta.html" . }}
+{{ partial "meta.html" . }}
 </head>

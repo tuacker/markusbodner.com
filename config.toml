@@ -6,7 +6,7 @@ title = "Markus Bodner"
 	name = "Markus Bodner"
 
 [permalinks]
-	post = ":year/:month/:title/"
+	post = ":year/:month/:day/:title/"
 
 [taxonomies]
 	tag = "tags"
