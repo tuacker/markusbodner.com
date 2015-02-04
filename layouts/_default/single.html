@@ -1,20 +1,8 @@
-{{ partial "header.html" . }}
+{{ partial "head.html" . }}
 {{ partial "meta.html" . }}
 </head>
 <body>
-    <header class="container clrfix">
-        <a href="{{ $.Site.BaseUrl }}">
-            <div class="logo">
-                <h1>
-                    <img src="/logo.png" alt="A logo with the letters M B inside a circle with a double border">Markus Bodner
-                </h1>
-            </div>
-        </a><!--
-        --><nav class="nav primary-nav">
-{{ partial "nav.html" . }}
-        </nav>
-    </header>
-
+{{ partial "header.html" . }}
     <article>
         <div class="headline">
             <div class="container">
