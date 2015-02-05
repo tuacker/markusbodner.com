@@ -2,6 +2,8 @@ baseurl = "http://www.markusbodner.com"
 languageCode = "en-us" 
 title = "Markus Bodner"
 
+footnotereturnlinkcontents = "↩"
+
 [author]
 	name = "Markus Bodner"
 
