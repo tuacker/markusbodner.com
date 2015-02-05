@@ -1,6 +1,6 @@
 +++
 title = ""
 date = ""
-tags = [""]
+tags = ["Uncategorized"]
 draft = true
 +++
