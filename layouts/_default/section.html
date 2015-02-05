@@ -1,0 +1,17 @@
+{{ partial "head.html" . }}
+</head>
+<body>
+{{ partial "header.html" . }}
+
+	<section class="container contentlist">
+		<h2>{{ .Title }}</h2>
+		{{ range .Data.Pages.GroupByDate "2006" }}
+		<h3>{{ .Key }}</h3>
+			<ul>
+				{{ range .Pages }}
+{{ .Render "li"}}
+				{{ end }}
+			</ul>
+		{{ end }}
+	</section>
+{{ partial "footer.html" . }}

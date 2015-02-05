@@ -15,15 +15,13 @@
         <div class="container post">
             {{ .Content }}
         </div>
-
-        <div class="container">
-            <section class="nav-post">
-                {{if .Prev}}<i class="fa fa-caret-left"></i> <a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a>{{end}}
-            </section><section class="nav-post text-right">
-                {{if .Next}}<a href="{{.Next.Permalink}}">{{.Next.Title}}</a> <i class="fa fa-caret-right"></i>{{end}}
-            </section>
-        </div>
-
     </article>
+    <section class="container">
+        <div class="nav-post">
+                {{if .Prev}}<i class="fa fa-caret-left"></i> <a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a>{{end}}
+        </div><div class="nav-post text-right">
+                {{if .Next}}<a href="{{.Next.Permalink}}">{{.Next.Title}}</a> <i class="fa fa-caret-right"></i>{{end}}
+        </div>
+    </section>
 
 {{ partial "footer.html" . }}

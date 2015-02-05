@@ -98,6 +98,18 @@ h2 {
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
 }
 
+.contentlist h2 {
+	font-size: 28px;
+	line-height: 2;
+	font-weight: 400;
+	text-shadow: none;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 36px;
+}
+
 /*************** Links *******************************************************/
 a {
 	color: #ea3348;
@@ -116,6 +128,10 @@ a.tags {
 	color: #888;
 }
 
+.contentlist a {
+	text-decoration: none;
+}
+
 nav a {
 	color: #5d5d5d;
 	text-decoration: none;
@@ -126,7 +142,8 @@ nav a:hover,
 	color: #ea3348;
 }
 
-nav a:hover {
+nav a:hover,
+.contentlist a:hover {
 	text-decoration: underline;
 }
 
@@ -247,6 +264,10 @@ article {
 	padding: 25px 0;
 }
 
+article:last-of-type {
+	padding-bottom: 50px;
+}
+
 .headline {
 	font-size: 12px;
 	line-height: 2;
@@ -268,6 +289,7 @@ article {
 	display: inline-block;
 	width: 50%;
 	vertical-align: middle;
+	padding-bottom: 50px;
 }
 
 .text-right {
@@ -305,6 +327,44 @@ footer small {
 footer small,
 footer nav {
 	font-size: 12px;
+}
+
+/*************** Archive/Tag-List ********************************************/
+.contentlist {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	font-size: 18px;
+	line-height: 2;
+}
+
+.contentlist h2 {
+	text-align: center;
+}
+
+.contentlist h3 {
+	padding-top: 25px;
+}
+
+.contentlist li {
+	padding-left: 25px;
+}
+
+.contentlist li:hover {
+	background-color: #ddd;
+}
+
+.contentlist a,
+.contentlist time {
+	display: inline-block;
+}
+
+.contentlist a {
+	width: 60%;
+}
+
+.contentlist time {
+	width: 30%;
+	text-align: right;
 }
 
 /*************** Form ********************************************************/
@@ -364,6 +424,16 @@ form span {
 		width: 100%;
 		line-height: 1;
 		text-align: center;
+	}
+
+	/********** Archive/Tag-List *********************************************/
+	.contentlist {
+		font-size: 14px;
+	}
+	.contentlist time {
+		text-align: left;
+		width: 100%;
+		padding-bottom: 25px;
 	}
 	
 	/********** Footer *******************************************************/
