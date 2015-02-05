@@ -3,7 +3,7 @@
 <body>
 {{ partial "header.html" . }}
 
-{{ range first 10 .Data.Pages }}
+{{ range first 10 (where .Data.Pages "Section" "post")}}
     <article>
         <div class="headline">
             <div class="container">
@@ -19,6 +19,6 @@
     </article>
 {{ end }}
 	<div class="nav-old-posts">
-    	<a href="/post/">Older posts</a>
+    	<a href="/archive/">Older posts</a>
     </div>
 {{ partial "footer.html" . }}
