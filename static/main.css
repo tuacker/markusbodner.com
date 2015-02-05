@@ -14,9 +14,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -106,7 +103,7 @@ h2 {
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 24px;
 	line-height: 36px;
 }
 
@@ -237,7 +234,6 @@ header {
 
 .nav {
 	text-align:right;
-	float:right;
 	letter-spacing: .5px;
 }
 
@@ -272,17 +268,11 @@ article:last-of-type {
 	font-size: 12px;
 	line-height: 2;
 	color: #888;
-}
-
-.post {
-	margin: 15px auto;
-}
-
-.headline {
 	background-color: #383838;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	box-shadow: inset 0 0 10px 10px rgba(0,0,0,.1);
+	margin-bottom: 25px;
 }
 
 .nav-post {
@@ -294,6 +284,64 @@ article:last-of-type {
 
 .text-right {
 	text-align: right;
+}
+
+.post {
+	margin: 15px auto;
+}
+.post p, 
+.post h3 {
+	margin-bottom: 15px;
+}
+
+.post ul, .post ol {
+	padding-left: 50px;
+	padding-bottom: 15px;
+	line-height: 1.5;
+}
+
+.post img {
+	width: 100%;
+}
+
+blockquote,
+q {
+	margin: 25px 25px;
+	padding: 0 20px;
+	border-left: 4px solid #ea3348;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+sup {
+	vertical-align: super;
+	font-size: small;
+}
+
+/*************** Code ********************************************************/
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+code {
+  padding: .25em .5em;
+  font-size: 90%;
+  background-color: #ddd;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #ddd;
 }
 
 /*************** Footer ******************************************************/
