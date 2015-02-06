@@ -1,7 +1,8 @@
     <footer class="clrfix">
         <div class="container clrfix">
             <h2>That's it for now.</h2>
-            <p>You have reached the very end. If you have any questions or anything I can help you with, feel free to email me.</p>
+            <p>You have reached the very end. If you have any questions or anything I can help you with, feel free to <a href="mailto:{{ .Site.Author.email }}">email me</a>.<br>
+            You can also follow me on Twitter: <a href="https://www.twitter.com/{{ .Site.Author.twitter }}">@tuacker</a></p>
             <small>&copy; Markus Bodner</small>
             <nav class="nav">
 {{ partial "nav.html" . }}

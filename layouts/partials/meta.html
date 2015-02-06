@@ -8,7 +8,7 @@
     {{ if isset .Params "tags" }}{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">
     {{ end }}{{ end }}
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@tuacker" />
+    <meta name="twitter:site" content="{{ .Site.Author.twitter }}" />
     <meta name="twitter:title" content="{{ .Title }}" />
     <meta name="twitter:description" content="{{ .Summary }}" />
     <meta name="twitter:image" content="{{ .Site.BaseUrl }}/logo.png" />

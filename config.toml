@@ -6,6 +6,8 @@ footnotereturnlinkcontents = "↩"
 
 [author]
 	name = "Markus Bodner"
+	email = "hi@markusbodner.com"
+	twitter = "tuacker"
 
 [permalinks]
 	post = ":year/:month/:day/:title/"

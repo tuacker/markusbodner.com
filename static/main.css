@@ -394,6 +394,11 @@ footer nav {
 	padding-top: 25px;
 }
 
+.contentlist li,
+.contentlist ul {
+	list-style: none;
+}
+
 .contentlist li {
 	padding-left: 25px;
 }
@@ -416,6 +421,17 @@ footer nav {
 	text-align: right;
 }
 
+/*************** 404 *********************************************************/
+.errcode {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.errcode h2 {
+	text-shadow: none;
+	font-weight: 700;
+	padding-bottom: 25px;
+}
 /*************** Form ********************************************************/
 input,
 select,
@@ -438,7 +454,7 @@ form span {
 @media screen and (max-width: 700px) {
 	/* footer is a little bit higher at this resolution */
 	body {
-		margin-bottom: 480px;
+		margin-bottom: 520px;
 	}
 
 	.container { 
@@ -490,7 +506,7 @@ form span {
 	footer {
 		min-width: 320px;
 		text-align: center;
-		height: 480px; /* required to make footer stick to bottom properly */
+		height: 520px; /* required to make footer stick to bottom properly */
 	}
 	
 	footer small,
