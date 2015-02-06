@@ -283,7 +283,7 @@ article:last-of-type {
 	padding-bottom: 50px;
 }
 
-.text-right {
+.nav-post-prev {
 	text-align: right;
 }
 
@@ -393,10 +393,6 @@ footer nav {
 
 .contentlist p>a {
 	display: inline;
-}
-
-.contentlist h3 {
-	padding-top: 25px;
 }
 
 .contentlist li,
