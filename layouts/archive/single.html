@@ -5,6 +5,7 @@
 
 	<section class="container contentlist">
 		<h2>{{ .Title }}</h2>
+		<p>or you can browse by tags <a href="/tags/">here</a></p>
 		{{ range .Site.Pages.GroupByDate "2006" }}
 		<h3>{{ .Key }}</h3>
 			<ul>

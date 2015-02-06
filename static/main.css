@@ -386,8 +386,13 @@ footer nav {
 	line-height: 2;
 }
 
-.contentlist h2 {
+.contentlist h2,
+.contentlist p {
 	text-align: center;
+}
+
+.contentlist p>a {
+	display: inline;
 }
 
 .contentlist h3 {

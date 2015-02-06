@@ -5,6 +5,7 @@
 
 	<section class="container contentlist">
 		<h2>{{ .Title }}</h2>
+		<p>or you can check the archive <a href="/archive/">here</a></p>
 		{{ $data := .Data }}
 		{{ range $key,$value := .Data.Terms.ByCount }}
 		<a href="{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }}
