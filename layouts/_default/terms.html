@@ -8,7 +8,7 @@
 		<p>or you can check the archive <a href="/archive/">here</a></p>
 		{{ $data := .Data }}
 		{{ range $key,$value := .Data.Terms.ByCount }}
-		<a href="{{ $value.Name | urlize }}"> {{ $value.Name }} </a> {{ $value.Count }}
+		<a href="{{ $value.Name | urlize }}"> {{ $value.Name }} <span>{{ $value.Count }}</span></a> 
 		{{ end }}
 	</section>
 {{ partial "footer.html" . }}
