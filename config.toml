@@ -1,6 +1,6 @@
 baseurl = "http://www.markusbodner.com"
-languageCode = "en-us" 
 title = "Markus Bodner"
+copyright = "Copyright 2015 by Markus Bodner"
 
 footnotereturnlinkcontents = "↩"
 
