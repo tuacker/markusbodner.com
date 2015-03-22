@@ -66,19 +66,9 @@ body {
 	padding-right: 25px; 
 }
 
-/*.col-1-5 {
-  width: 20%;
+hr {
+	margin: 40px 0;
 }
-
-.col-4-5 {
-  width: 80%;
-}
-
-.col-1-5,
-.col-4-5 {
-  display: inline-block;
-  vertical-align: middle;
-}*/
 
 /*************** Typography **************************************************/
 h1 {
