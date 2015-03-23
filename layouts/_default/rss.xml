@@ -4,6 +4,7 @@
       <link>{{ .Permalink }}</link>
       {{ with .Site.Copyright }}<copyright>{{.}}</copyright>{{end}}
       <description>I'm Markus Bodner, game developer from Austria</description>
+      <atom:link href="{{ .Site.BaseUrl }}index.xml" rel="self" type="application/rss+xml" />
       {{ range first 15 (where .Data.Pages "Section" "post")}}
       <item>
         <title>{{ .Title }}</title>
