@@ -53,9 +53,8 @@ html {
 body {
 	color: #5d5d5d;
 	font: 400 16px/22px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	/*background: #f9f5ef;*/
-	background-color: #f4f4f4;
-	background-image: url("blizzard.png");
+	/*background-color: #f4f4f4;*/
+	/*background-image: url("blizzard.png");*/
 	margin-bottom: 350px; /* footer height */
 }
 
@@ -113,7 +112,7 @@ a:hover {
 }
 
 .headline a {
-	color: #ddd;
+	color: #0f2633;
 	text-decoration: none;
 }
 
@@ -265,15 +264,12 @@ article:last-of-type {
 	font-size: 12px;
 	line-height: 2;
 	color: #888;
-	background-color: #383838;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	box-shadow: inset 0 0 10px 10px rgba(0,0,0,.1);
+	border-top: 1px solid #2E749C;
+	border-bottom: 1px solid #2E749C;
+	background-color: rgba(46,116,156,.05);
 	margin-bottom: 25px;
-}
-
-.headline h2 {
-	text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
 }
 
 .nav-post {
