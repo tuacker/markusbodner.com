@@ -7,7 +7,7 @@
 {{ partial "header.html" . }}
     <article>
         <div class="headline">
-            <div class="container">
+            <div class="container post">
                 <a href="{{ .Permalink }}">
                     <h2>{{ .Title }}</h2>
                 </a>
@@ -16,6 +16,9 @@
         </div>
         <div class="container post">
             {{ .Content }}
+        </div>
+        <div class="container diamond">
+            ◈
         </div>
     </article>
     <section class="container">
