@@ -272,6 +272,10 @@ article:last-of-type {
 	margin-bottom: 25px;
 }
 
+.title {
+	max-width: 700px;
+}
+
 .nav-post {
 	display: inline-block;
 	width: 50%;
@@ -287,6 +291,7 @@ article:last-of-type {
 	max-width: 700px;
 	margin: 15px auto;
 }
+
 .post p, 
 .post h3 {
 	margin-bottom: 15px;
