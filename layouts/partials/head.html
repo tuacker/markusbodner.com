@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    {{ `<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->` | safeHtml }}
+    {{ `<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->` | safeHTML }}
 
 
     <!-- CSS,favicon -->
@@ -18,6 +18,6 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
 
     <!-- RSS/Cannonical/Open Graph/Twitter Cards/Google -->
-    <link href="{{ $.Site.BaseUrl }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}">
+    <link href="{{ $.Site.BaseURL }}index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}">
     
     <link rel="canonical" href="{{ .Permalink }}">
