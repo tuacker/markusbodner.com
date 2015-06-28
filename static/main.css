@@ -428,21 +428,61 @@ footer nav {
 	border-radius: 7px;
 }
 
-/*************** Form ********************************************************/
-input,
-select,
-textarea
-form span {
-  font: 300 14px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*************** Newsletter form *********************************************/
+#mc_embed_signup {
+	text-align: center;
 }
 
-.newsletter {
-	padding-top: 44px;
-	text-align: right;
+#mc_embed_signup form {
+	max-width: 450px;
+	padding: 0 10px;
+	margin: 40px auto;
 }
-.newsletter span {
-	float:left;
-	line-height: 30px;
+
+.mc-field-group {
+	display:flex;
+	align-items:center;
+}
+
+#mc_embed_signup .button,
+#mc_embed_signup .email {
+	height: 44px;
+	border: none;
+}
+
+#mc_embed_signup label {
+	width: 20%;
+}
+
+#mce-EMAIL {
+  width: 75%;
+  background: #5d5d5d;
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+#mc-embedded-subscribe {
+  width: 25%;
+  background: #ea3348;
+  color: #fff;
+  font-family: inherit;
+  font-size: 14px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+#mc-embedded-subscribe:hover {
+	background-color: #b32738;
+}
+
+input:focus {
+  outline: none;
+  outline: 2px solid #ea3348;
+  box-shadow: 0 0 2px #ea3348;
 }
 
 /*************** Responsive **************************************************/
@@ -512,13 +552,6 @@ form span {
 		width: 100%;
 		text-align: center;
 		padding-bottom: 25px;
-	}
-	
-	.newsletter,
-	.newsletter span {
-		width: 100%;
-		text-align: center;
-		margin-bottom: 20px;
 	}
 
 }
