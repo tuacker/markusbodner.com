@@ -439,9 +439,10 @@ footer nav {
 	margin: 40px auto;
 }
 
-.mc-field-group {
-	display:flex;
-	align-items:center;
+.email,
+.button {
+	display:inline-block;
+	vertical-align: middle;
 }
 
 #mc_embed_signup .button,
@@ -455,7 +456,7 @@ footer nav {
 }
 
 #mce-EMAIL {
-  width: 75%;
+  width: 70%;
   background: #5d5d5d;
   color: #fff;
   font-family: inherit;
@@ -465,7 +466,7 @@ footer nav {
 }
 
 #mc-embedded-subscribe {
-  width: 25%;
+  width: 30%;
   background: #ea3348;
   color: #fff;
   font-family: inherit;
@@ -473,6 +474,7 @@ footer nav {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   transition: background .3s ease-in-out;
+  -webkit-appearance: none;
 }
 
 #mc-embedded-subscribe:hover {
