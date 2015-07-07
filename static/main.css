@@ -307,8 +307,13 @@ article:last-of-type {
 	line-height: 1.5;
 }
 
-.post img {
+.post img,
+.post video {
 	width: 100%;
+}
+
+.post video {
+	margin: 20px 0;
 }
 
 blockquote,
