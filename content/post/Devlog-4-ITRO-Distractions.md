@@ -1,7 +1,7 @@
 +++
 date = "2015-07-18T09:13:02+02:00"
 draft = false
-tags = ["Devlog","Itro"]
+tags = ["Devlog","Itro", "Itror"]
 title = "Devlog 4 - Itro: Distractions"
 
 +++
