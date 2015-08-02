@@ -19,7 +19,7 @@ Having all 3 of them active at the same time makes the game very, very difficult
 And I've learned I really don't like making menus. Itror launches directly into gameplay, no main menu. So I skipped that part but the pause/game over screens I had to make.
 
 <video src="/media/videos/devlog5-awardPoints.mp4" autoplay loop height="500">
-  Your browser does not support the <code>video</code> element. <a href="/media/videos/devlog5-awardPoints">Download it instead</a>.
+  Your browser does not support the <code>video</code> element. <a href="/media/videos/devlog5-awardPoints.mp4">Download it instead</a>.
 </video>
 
 It's all slowly coming together and I'll probably do sound next.
