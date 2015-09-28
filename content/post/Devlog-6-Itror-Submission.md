@@ -6,7 +6,7 @@ title = "Devlog 6 - Itror: Submission"
 
 +++
 
-Almost two months have passed since my last [Devlog](http://www.markusbodner.com/2015/08/01/devlog-5---itror-points-points-points/) on Itror. Which is far too long.
+Almost two months have passed since my last [Devlog](http://www.markusbodner.com/2015/08/01/devlog-5---itror-points-points-points/) on [Itror](http://www.itror.com). Which is far too long.
 
 If this is the first time you hear about Itror here is the pitch: You have to tap icons in the order they originally appeared, with each round adding a new one to remember. At the end you'll have to recall a sequence of 35 objects.
 
@@ -48,6 +48,8 @@ Creating these assets is, personally, one of the lesser enjoyable aspects of gam
 
 With that said all I have left to do is to create a release announcement trailer and a final gameplay/release trailer. I'll use the [Average App Store Review Times](http://appreviewtimes.com/) period to create them.
 
+-
+Sign up for the newsletter on [www.itror.com](http://www.itror.com) to get notified once the game is available!
 -
 
 
