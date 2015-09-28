@@ -10,7 +10,7 @@ Almost two months have passed since my last [Devlog](http://www.markusbodner.com
 
 If this is the first time you hear about Itror here is the pitch: You have to tap icons in the order they originally appeared, with each round adding a new one to remember. At the end you'll have to recall a sequence of 35 objects.
 
-[![Itror text logo](/media/images/devlog-5-intro.png)](/media/images/devlog-5-intro.png)
+[![Itror text logo](/media/images/devlog-6-intro.png)](/media/images/devlog-6-intro.png)
 
 When I started development on Itror I wanted to write weekly updates on how the games is progressing but somewhere along the line I fell off. This is going be something I'm improving for my next project. Scrolling past the 5 devlogs I made, it is fun to see how the game came along.
 
