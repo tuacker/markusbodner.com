@@ -49,7 +49,9 @@ Creating these assets is, personally, one of the lesser enjoyable aspects of gam
 With that said all I have left to do is to create a release announcement trailer and a final gameplay/release trailer. I'll use the [Average App Store Review Times](http://appreviewtimes.com/) period to create them.
 
 -
+
 Sign up for the newsletter on [www.itror.com](http://www.itror.com) to get notified once the game is available!
+
 -
 
 
