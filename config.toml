@@ -3,7 +3,7 @@ title = "Markus Bodner"
 copyright = "Copyright 2015 by Markus Bodner"
 
 footnotereturnlinkcontents = "↩"
-NewContentEditor = "/Applications/MacDown.app/Contents/MacOS/MacDown"
+NewContentEditor = "/usr/local/bin/subl"
 [author]
 	name = "Markus Bodner"
 	email = "hello@markusbodner.com"
