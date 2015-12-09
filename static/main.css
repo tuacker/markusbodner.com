@@ -90,8 +90,9 @@ h2 {
 }
 
 h3 {
-	font-size: 24px;
-	line-height: 36px;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 700;
 	text-align: left;
 }
 
@@ -342,7 +343,7 @@ pre {
   font-family: Menlo, Monaco, "Courier New", monospace;
 }
 code {
-  padding: .25em .5em;
+  /*padding: .25em .5em;*/
   font-size: 90%;
   background-color: #ddd;
   border-radius: 3px;
