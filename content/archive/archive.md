@@ -1,8 +1,6 @@
 +++
-url = "/archive/"
-type = "archive"
+date = "2015-01-01T11:18:49+02:00"
 title = "Archive"
-date = "2015-01-01"
 +++
 
 ### Explaination of this file
