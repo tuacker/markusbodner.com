@@ -1,6 +1,6 @@
 +++
 url = "/archive/"
-tpye = "archive"
+type = "archive"
 title = "Archive"
 date = "2015-01-01"
 +++
@@ -17,11 +17,11 @@ Abusing this fact (hugo checking layout/TYPE/single.html first) we simply render
 
 Obviously a "single.html" shouldn't render a LIST of CONTENT but that why this is a hack.
 
-## Required FrontMatter config 
+## Required FrontMatter config
 The FrontMatter on top of this file has contain at least these things for this to work:
 
 	* Rewrite url: url = "/archive/" (so the template renders to http://baseurl.com/archive/)
-	
+
 	* Set the date to be the oldest content of all with the year set to the same year as the actual first post
 		Example: Your first actual post is on "2015-05-21" so the date of this file should be "2015-01-01"
 		This way the last post has a .Prev.Permalink to the archive
