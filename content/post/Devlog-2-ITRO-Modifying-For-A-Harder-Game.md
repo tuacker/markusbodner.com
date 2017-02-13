@@ -6,9 +6,9 @@ title = "Devlog 2 - Itro: Modifying For A Harder Game"
 
 +++
 
-*Note: I've now set up a newsletter. You can sign up for it near the bottom. If you only wan't to receive updates about releases sign up for the newsletter over at [magnetforge.com](http://www.magnetforge.com)*
+*Note: I've now set up a newsletter. You can sign up for it near the bottom. If you only wan't to receive updates about releases sign up for the newsletter over at [magnetforge.com](https://magnetforge.com)*
 
-A week has passed since the [last Devlog entry](http://www.markusbodner.com/2015/06/24/devlog-1---itro-in-the-right-order/). Time to talk about changes to Itro. The memory game where you have to select pictograms in the order they appeared, with each round adding a new one to the mix.
+A week has passed since the [last Devlog entry](https://markusbodner.com/2015/06/24/devlog-1---itro-in-the-right-order/). Time to talk about changes to Itro. The memory game where you have to select pictograms in the order they appeared, with each round adding a new one to the mix.
 
 This week was spent on getting all game modes up and running so no visual changes.
 The game will feature several modifiers, making each individual round more difficult, as well as two bonus rounds.
@@ -33,7 +33,7 @@ Play against the clock. Every correct guess you gain bonus time. At the end of t
 Once you complete all normal rounds there are two bonus rounds left: "Double or Nothing" and "Reverse".
 
 #### Double or Nothing
-While in this round you gain no points. If you happen to complete it your current points will be doubled. If you fail you will lose all points earned. 
+While in this round you gain no points. If you happen to complete it your current points will be doubled. If you fail you will lose all points earned.
 
 #### Reverse
 The final round. You now have to guess the correct pictograms but in reverse. For every correct correct guess you'll be awarded with a huge amount of points.

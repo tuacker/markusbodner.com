@@ -6,7 +6,7 @@ title = "Devlog 6 - Itror: Submission"
 
 +++
 
-Almost two months have passed since my last [Devlog](http://www.markusbodner.com/2015/08/01/devlog-5---itror-points-points-points/) on [Itror](http://www.itror.com). Which is far too long.
+Almost two months have passed since my last [Devlog](https://markusbodner.com/2015/08/01/devlog-5---itror-points-points-points/) on [Itror](https://itror.com). Which is far too long.
 
 If this is the first time you hear about Itror here is the pitch: You have to tap icons in the order they originally appeared, with each round adding a new one to remember. At the end you'll have to recall a sequence of 35 objects.
 
@@ -26,7 +26,7 @@ I am using the Heyzap SDK to integrate ads with the cocos2d-x engine. Heyzap is 
 
 #### Highscores & Social
 
-From the Game Over screen you'll be able to share a screenshot of your score on Twitter, Facebook and more. For iOS I've implemented leaderboards via Apple's Game Center. You'll be able to challenge your friends to beat your highscore. 
+From the Game Over screen you'll be able to share a screenshot of your score on Twitter, Facebook and more. For iOS I've implemented leaderboards via Apple's Game Center. You'll be able to challenge your friends to beat your highscore.
 
 #### Sounds
 
@@ -50,7 +50,7 @@ With that said all I have left to do is to create a release announcement trailer
 
 -
 
-Sign up for the newsletter on [www.itror.com](http://www.itror.com) to get notified once the game is available!
+Sign up for the newsletter on [itror.com](https://itror.com) to get notified once the game is available!
 
 -
 
