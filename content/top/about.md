@@ -15,7 +15,7 @@ You may also know me as **tuacker** and read my thoughts and amazing jokes on <i
 
 The RSS feed for this site is located <i class="fa fa-rss"></i> [here](/index.xml), or if you prefer you can subscribe via e-mail at the bottom of the page.
 
-You're welcome to email me about anything. <i class="fa fa-envelope"></i> [hello@markusbodner.com](mailto:hello@markusbodner.com)
+You're welcome to email me about anything. <i class="fa fa-envelope"></i> [me@markusbodner.com](mailto:me@markusbodner.com)
 
 ---
 <div id="privacy"></div>
