@@ -1,6 +1,7 @@
 +++
 date = "2015-01-02T11:18:49+02:00"
 title = "Archive"
+url = "/archive/"
 +++
 
 ### Explaination of this file
