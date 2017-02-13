@@ -7,7 +7,7 @@ before_script:
   - ssh-add <(echo "$SSH_PRIVATE_KEY")
   - mkdir ~/.ssh/
   # add remote to known hosts
-  - ssh-keyscan -t rsa $SSH_REMOTE_HOST >> .ssh/known_hosts
+  - ssh-keyscan -t rsa $SSH_REMOTE_HOST >> ~/.ssh/known_hosts
 
 deploy:
   script:
