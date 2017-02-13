@@ -1,4 +1,8 @@
-before_script:
+deploy:
+  only:
+    - master
+
+  before_script:
   # install ssh-agent
   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
   # run the ssh-agent
@@ -9,7 +13,5 @@ before_script:
   # add remote to known hosts
   - ssh-keyscan -t rsa $SSH_REMOTE_HOST >> ~/.ssh/known_hosts
 
-deploy:
   script:
-    - ssh gitlab_deploy@$SSH_REMOTE_HOST
-    - ls -la
+    - ssh gitlab_deploy@$SSH_REMOTE_HOST 'bash -s' < deploy/deploy.sh $CI_PROJECT_NAME
