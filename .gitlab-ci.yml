@@ -8,6 +8,7 @@ before_script:
   # add remote to known hosts
   - ssh-keyscan -t rsa $SSH_REMOTE_HOST >> ~/.ssh/known_hosts
 
-script:
-  - ssh gitlab_deploy@$SSH_REMOTE_HOST
-  - ls -la
+deploy:
+  script:
+    - ssh gitlab_deploy@$SSH_REMOTE_HOST
+    - ls -la
