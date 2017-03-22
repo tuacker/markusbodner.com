@@ -6,12 +6,12 @@ url = "/about/"
 +++
 
 ### About
+{{<figure src="/media/images/me.png" class="about-figure" alt="Markus Bodner" title="Markus Bodner" >}}
+I'm Markus Bodner, and I'm a developer from Tirol, Austria.
 
-I'm Markus Bodner, and I'm a game developer in Tirol, Austria.
+I've previously made a neat little game named [Itror](https://itror.com). Currently I am working on [Egg Inventory](https://egginventory.com).
 
-I am currently working on my first game called In The Right Order. The developement process of which I'll be sharing here.
-
-You may also know me as **tuacker** and read my thoughts and amazing jokes on <i class="fa fa-twitter"></i> [Twitter](https://www.twitter.com/tuacker). I also love playing games, mostly via <i class="fa fa-steam"></i> [Steam](https://steamcommunity.com/id/tuacker/), with my current most played game being [Dota 2](http://store.steampowered.com/app/570/).
+You may also know me as **tuacker** and read my thoughts on <i class="fa fa-twitter"></i> [Twitter](https://www.twitter.com/tuacker). I also love playing games, mostly via <i class="fa fa-steam"></i> [Steam](https://steamcommunity.com/id/tuacker/), with my current most played game being [Dota 2](http://store.steampowered.com/app/570/).
 
 The RSS feed for this site is located <i class="fa fa-rss"></i> [here](/index.xml), or if you prefer you can subscribe via e-mail at the bottom of the page.
 

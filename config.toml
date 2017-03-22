@@ -6,7 +6,7 @@ footnotereturnlinkcontents = "↩"
 NewContentEditor = "/usr/local/bin/subl"
 [author]
 	name = "Markus Bodner"
-	email = "hello@markusbodner.com"
+	email = "me@markusbodner.com"
 	twitter = "tuacker"
 
 [permalinks]

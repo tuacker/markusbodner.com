@@ -571,3 +571,16 @@ input:focus {
 	}
 
 }
+
+/* About **********************************************************************/
+figure.about-figure {
+  margin: 20px;
+  border-bottom: 1px solid #eee;
+
+  text-align: center;
+}
+
+figure.about-figure img {
+	width: 140px;
+	height: 140px;
+}
