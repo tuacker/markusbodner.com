@@ -1,6 +1,6 @@
 +++
 title = "Sending plain text and HTML emails using EEx and Swoosh in Phoenix & Elixir"
-draft = true
+draft = false
 tags = ["Elixir"]
 date = "2017-03-22T12:25:17+01:00"
 
