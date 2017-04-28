@@ -6,7 +6,7 @@ date = "2017-03-22T12:25:17+01:00"
 
 +++
 
-While building [Egg Inventory](https://egginventory.com) - a SaaS for layer farmers to keep records of their daily egg production, sales, and more - I needed to be able to send emails.
+While working on a SaaS built with the Phoenix Framework I needed to be able to send emails.
 
 For the actual processing I'm using [Mailgun](https://www.mailgun.com/) and to get them there the awesome [swoosh](https://github.com/swoosh/swoosh) Elixir library (as well as the [phoenix_swoosh](https://github.com/swoosh/phoenix_swoosh) extension).
 
@@ -24,7 +24,7 @@ So how to leverage EEx to generate plain text emails just like HTML? Easy, you s
 
     # lib/my_app/mailer.ex
 
-    defmodule Egginventory.Mailer do
+    defmodule MyApp.Mailer do
       use Swoosh.Mailer, otp_app: :my_app
     end
 
@@ -45,7 +45,7 @@ For example, here are mine:
 
     # web/templates/email/welcome_email.text.eex
 
-    Welcome to Egg Inventory, @user.name!
+    Welcome to My App, @user.name!
 
     We have put together some information about
     your <rest of welcome mail>
