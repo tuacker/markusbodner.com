@@ -340,11 +340,12 @@ pre {
 }
 code {
   font-size: 90%;
-  background-color: #ddd;
+  background-color: #eee;
   border-radius: 3px;
+  word-break: break-word;
 }
 p code {
-	padding: .25em .5em;
+	padding: .2em .5em;
 }
 pre {
   display: block;
@@ -528,6 +529,10 @@ input:focus {
 		padding-top: 20px;
 		padding-bottom: 20px;
 		text-align: center;
+	}
+
+	.logo span {
+		font-size: 24px;
 	}
 
 	.primary-nav {
