@@ -11,9 +11,6 @@ summary, time, mark, audio, video {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -51,8 +48,8 @@ html {
 }
 
 body {
-	color: #5d5d5d;
-	font: 18pt/24pt  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	color: #595759;
+	font: 16pt -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-bottom: 350px; /* footer height */
 }
 
@@ -70,12 +67,10 @@ hr {
 /*************** Typography **************************************************/
 h1 {
 	font-size: 24pt;
-	line-height: 36px;
 }
 
 h2 {
 	font-size: 24pt;
-	line-height: 36px;
 }
 
 .contentlist h1 {
@@ -85,7 +80,6 @@ h2 {
 
 h3 {
 	font-size: 18px;
-	line-height: 27px;
 	text-align: left;
 }
 
@@ -262,7 +256,6 @@ article:last-of-type {
 
 .headline {
 	font-size: 12px;
-	line-height: 2;
 	color: #888;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -283,6 +276,11 @@ article:last-of-type {
 	text-align: right;
 }
 
+.title,
+.post {
+	max-width: 800px;
+}
+
 .post {
 	margin: 15px auto;
 }
@@ -294,7 +292,6 @@ article:last-of-type {
 .post ul, .post ol {
 	padding-left: 50px;
 	padding-bottom: 15px;
-	line-height: 1.5;
 }
 
 .post img,
@@ -313,7 +310,6 @@ q {
 	border-left: 4px solid #ea3348;
 	font-size: 18px;
 	font-style: italic;
-	line-height: 1.5;
 }
 
 sup {
@@ -338,7 +334,7 @@ code {
   word-break: break-word;
 }
 p code {
-	padding: .1em .5em;
+	padding: 0 .5em;
 }
 pre {
   display: block;
@@ -371,8 +367,10 @@ footer {
 }
 
 footer h2 {
+	margin-bottom: 1rem;
 }
 footer p {
+	font-size: 20px;
 	padding-bottom: 50px;
 }
 
@@ -390,7 +388,7 @@ footer nav {
 	padding-top: 25px;
 	padding-bottom: 50px;
 	font-size: 18px;
-	line-height: 2;
+	line-height: 1.5;
 	text-align: center;
 }
 
@@ -512,7 +510,7 @@ input:focus {
 	/********** Header *********************************************/
 	header {
 		min-width: 320px;
-		line-height: 1;
+		line-height: 1.5;
 		height: 100%;
 		padding-bottom: 50px;
 	}
