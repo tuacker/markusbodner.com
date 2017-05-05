@@ -52,9 +52,7 @@ html {
 
 body {
 	color: #5d5d5d;
-	font: 18px/26px  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-	/*background-color: #f4f4f4;*/
-	/*background-image: url("blizzard.png");*/
+	font: 18pt/24pt  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-bottom: 350px; /* footer height */
 }
 
@@ -71,12 +69,12 @@ hr {
 
 /*************** Typography **************************************************/
 h1 {
-	font-size: 24px;
+	font-size: 24pt;
 	line-height: 36px;
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 24pt;
 	line-height: 36px;
 }
 
@@ -274,10 +272,6 @@ article:last-of-type {
 	margin-bottom: 25px;
 }
 
-.title {
-	max-width: 700px;
-}
-
 .nav-post {
 	display: inline-block;
 	width: 50%;
@@ -290,7 +284,6 @@ article:last-of-type {
 }
 
 .post {
-	max-width: 700px;
 	margin: 15px auto;
 }
 
@@ -345,7 +338,7 @@ code {
   word-break: break-word;
 }
 p code {
-	padding: .2em .5em;
+	padding: .1em .5em;
 }
 pre {
   display: block;
