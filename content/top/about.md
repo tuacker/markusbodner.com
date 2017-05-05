@@ -5,7 +5,7 @@ url = "/about/"
 
 +++
 
-### About
+# About
 {{<figure src="/media/images/me.png" class="about-figure" alt="Markus Bodner" title="Markus Bodner" >}}
 I'm Markus Bodner, and I'm a developer from Tirol, Austria.
 

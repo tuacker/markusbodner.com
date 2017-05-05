@@ -6,7 +6,7 @@
 {{ partial "header.html" . }}
 
 	<section class="container contentlist">
-		<h2>{{ .Title }}</h2>
+		<h1>{{ .Title }}</h1>
 		<p>or you can browse by tags <a href="/tags/">here</a></p>
 		{{ range (where .Site.Pages "Section" "post").GroupByDate "2006" }}
 		<h3>{{ .Key }}</h3>

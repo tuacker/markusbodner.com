@@ -52,7 +52,7 @@ html {
 
 body {
 	color: #5d5d5d;
-	font: 400 16px/24px  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 18px/26px  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	/*background-color: #f4f4f4;*/
 	/*background-image: url("blizzard.png");*/
 	margin-bottom: 350px; /* footer height */
@@ -71,33 +71,27 @@ hr {
 
 /*************** Typography **************************************************/
 h1 {
-	font-size: 32px;
-	font-weight: 300;
-
+	font-size: 24px;
+	line-height: 36px;
 }
 
 h2 {
 	font-size: 24px;
 	line-height: 36px;
-	letter-spacing: .5px;
-	font-weight: 300;
 }
 
-.contentlist h2 {
+.contentlist h1 {
 	font-size: 28px;
 	line-height: 2;
-	font-weight: 400;
 }
 
 h3 {
 	font-size: 18px;
 	line-height: 27px;
-	font-weight: 700;
 	text-align: left;
 }
 
 h4 {
-	font-weight: 700;
 }
 
 h3, h4 {
@@ -105,7 +99,6 @@ h3, h4 {
 	margin-bottom: .25em;
 }
 strong {
-	font-weight: 700;
 }
 
 em {
@@ -168,7 +161,6 @@ footer a {
 	color: #fff;
 	cursor: pointer;
 	display: inline-block;
-	font-weight: 400;
 	letter-spacing: .5px;
 	margin: 0;
 	text-transform: uppercase;
@@ -200,9 +192,11 @@ header {
 	color: #5d5d5d;
 	float:left;
 	position: relative;
+
+	font-size: 32px;
 }
 
-.logo h1:hover {
+.logo span:hover {
 	color: #ea3348;
 	transition: color .5s ease-in-out;
 }
@@ -257,7 +251,6 @@ header {
 	padding-top: 25px;
 	padding-bottom: 50px;
 	text-transform: uppercase;
-	font-weight: 400;
 }
 
 /*************** Article *****************************************************/
@@ -384,7 +377,6 @@ footer {
 }
 
 footer h2 {
-	font-weight: 700;
 }
 footer p {
 	padding-bottom: 50px;
