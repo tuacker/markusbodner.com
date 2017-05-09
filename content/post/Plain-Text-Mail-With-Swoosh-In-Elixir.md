@@ -8,7 +8,7 @@ date = "2017-03-22T12:25:17+01:00"
 
 While working on a SaaS built with the Phoenix Framework I needed to be able to send emails.
 
-For the actual processing I'm using [Mailgun](https://www.mailgun.com/) and to get them there the awesome [swoosh](https://github.com/swoosh/swoosh) Elixir library (as well as the [phoenix_swoosh](https://github.com/swoosh/phoenix_swoosh) extension).
+For the actual processing I'm using [Mailgun](https://www.mailgun.com/) and to get them there the awesome [swoosh](https://github.com/swoosh/swoosh) Elixir library (as well as the [phoenix_swoosh](https://github.com/swoosh/phoenix_swoosh) extension).<!--more-->
 
 As with all Elixir libraries swoosh comes with a [great documentation](https://hexdocs.pm/swoosh/Swoosh.html). I'm not going to repeat it here, check out the git repos linked above for basic setup.
 
