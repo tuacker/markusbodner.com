@@ -49,12 +49,12 @@ html {
 
 body {
 	color: #2B2A2B;
-	font: 300 16pt -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font: 400 1rem -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	margin-bottom: 350px; /* footer height */
 }
 
 .container {
-	max-width: 850px;
+	/*max-width: 850px;*/
 	margin: 0 auto;
 	padding-left: 25px;
 	padding-right: 25px;
@@ -184,7 +184,7 @@ header {
 
 .logo {
 	border-top: 4px solid #ea3348;
-	color: #5d5d5d;
+	color: #2B2A2B;
 	float:left;
 	position: relative;
 	font-weight: 800;
@@ -193,12 +193,12 @@ header {
 
 .logo span:hover {
 	color: #ea3348;
-	transition: color .5s ease-in-out;
+	transition: color .5s;
 }
 
 .logo:after {
 	content: "";
-	border-top: 4px solid #5d5d5d;
+	border-top: 4px solid #2B2A2B;
 	top: -4px;
 	left: 100%;
 	width: 0;
@@ -262,10 +262,11 @@ article:last-of-type {
 	color: #888;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-top: 1px solid #2E749C;
-	border-bottom: 1px solid #2E749C;
+	/*border-top: 1px solid #2E749C;*/
+	/*border-bottom: 1px solid #2E749C;*/
 	background-color: rgba(46,116,156,.05);
 	margin-bottom: 25px;
+	text-align: center;
 }
 
 .nav-post {
@@ -279,13 +280,12 @@ article:last-of-type {
 	text-align: right;
 }
 
-.title,
 .post {
-	max-width: 800px;
+	max-width: 700px;
 }
 
 .post {
-	line-height: 21pt;
+	line-height: 1.5;
 	margin: 15px auto;
 }
 
@@ -565,6 +565,10 @@ input:focus {
 }
 
 /* About **********************************************************************/
+#about {
+	text-align: center;
+}
+
 figure.about-figure {
   margin: 20px;
   border-bottom: 1px solid #eee;
