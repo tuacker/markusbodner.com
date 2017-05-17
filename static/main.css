@@ -309,6 +309,12 @@ article:last-of-type {
 	margin: 20px 0;
 }
 
+.comments {
+	max-width: 850px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
 blockquote,
 q {
 	margin: 25px 25px;
