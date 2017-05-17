@@ -22,7 +22,11 @@
             ◈
         </div>
     </article>
-{{ partial "newsletter.html" . }}
+
+    {{ partial "newsletter.html" . }}
+
+    {{ partial "disqus.html" . }}
+
     <section class="container">
         <div class="nav-post">
                 {{if .Prev}}<i class="fa fa-caret-left"></i> <a href="{{.Prev.Permalink}}">{{.Prev.Title}}</a>{{end}}
