@@ -6,7 +6,7 @@ title = "Automatic recreation of Realm DB during development"
 
 +++
 
-In a [previous devlog]({{< relref "choosing-how-to-persist-data-in-ios-and-beyond.md" >}}) I mentioned choosing [Realm](https://realm.io) as backend for [Budget With Claire](https://budgetwithclaire.com). I like it so far, but there has been a minor nuisance. During early development the layout of the DB changes all the time.
+In a [previous devlog]({{< relref "choosing-how-to-persist-data-in-ios-and-beyond.md" >}}) I mentioned choosing [Realm](https://realm.io) as backend for [Budget With Claire](https://budgetwithclaire.com). I like it so far, but there has been a minor nuisance. During early development the layout of the DB changes all the time.<!--more-->
 
 If you want to change the existing schema Realm requires a migration from old to new. This is important for production code. Writing a migration during early development for every minor change is tedious and overkill.
 
