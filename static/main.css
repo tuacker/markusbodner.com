@@ -403,6 +403,7 @@ footer nav {
 
 /*************** Archive/Tag-List/404 ****************************************/
 .contentlist {
+	max-width: 1200px;
 	padding-top: 25px;
 	padding-bottom: 50px;
 	font-size: 18px;
