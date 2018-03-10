@@ -6,7 +6,7 @@ title = "Devlog 4 - Itro: Distractions"
 
 +++
 
-This weeks devlog arrives a bit later than usual. In the [last devlog](https://markusbodner.com/2015/07/07/devlog-3---itro-eye-candy-it/) I mentioned I wanted to focus on the missing settings and game over screens. That didn't happen.
+This weeks devlog arrives a bit later than usual. In the [last devlog](https://www.markusbodner.com/2015/07/07/devlog-3---itro-eye-candy-it/) I mentioned I wanted to focus on the missing settings and game over screens. That didn't happen.
 
 Let's have a look at what changed with Itro, the game about selecting pictograms the order they originally appeared with each round adding a new one, instead.
 

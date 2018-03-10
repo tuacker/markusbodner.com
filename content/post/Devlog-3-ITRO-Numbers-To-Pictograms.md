@@ -6,7 +6,7 @@ title = "Devlog 3 - Itro: Eye Candy It"
 
 +++
 
-Last week's [devlog](https://markusbodner.com/2015/07/01/devlog-2---itro-modifying-for-a-harder-game/) was about getting the core of Itro running. If you don't know, Itro is a game about selecting pictograms the order they originally appeared with each round adding a new one.
+Last week's [devlog](https://www.markusbodner.com/2015/07/01/devlog-2---itro-modifying-for-a-harder-game/) was about getting the core of Itro running. If you don't know, Itro is a game about selecting pictograms the order they originally appeared with each round adding a new one.
 
 This of course requires actual images and not just numbers as it was until now. So I spend the week to update the eye candy of the game.
 

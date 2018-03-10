@@ -6,7 +6,7 @@ title = "Devlog 6 - Itror: Submission"
 
 +++
 
-Almost two months have passed since my last [Devlog](https://markusbodner.com/2015/08/01/devlog-5---itror-points-points-points/) on [Itror](https://itror.com). Which is far too long.
+Almost two months have passed since my last [Devlog](https://www.markusbodner.com/2015/08/01/devlog-5---itror-points-points-points/) on [Itror](https://itror.com). Which is far too long.
 
 If this is the first time you hear about Itror here is the pitch: You have to tap icons in the order they originally appeared, with each round adding a new one to remember. At the end you'll have to recall a sequence of 35 objects.
 

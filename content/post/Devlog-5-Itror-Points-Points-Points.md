@@ -6,7 +6,7 @@ title = "Devlog 5 - Itror: Points, Points, Points"
 
 +++
 
-It's been a while since my last [Devlog](https://markusbodner.com/2015/07/18/devlog-4---itro-distractions/) and quite a bit changed. Including the name from Itro to **Itror**. ROAR!
+It's been a while since my last [Devlog](https://www.markusbodner.com/2015/07/18/devlog-4---itro-distractions/) and quite a bit changed. Including the name from Itro to **Itror**. ROAR!
 
 If you don't know Itror is a game challenging your memory. You have to select icons in the order they appeared with each round adding a new one.
 
