@@ -1,6 +1,5 @@
 {{ partial "head.html" . }}
 	<title>{{ .Title }} - {{ .Site.Title }}</title>
-{{ partial "analytics.html" . }}
 </head>
 <body>
 {{ partial "header.html" . }}
@@ -10,7 +9,7 @@
 		<p>or you can check the archive <a href="/archive/">here</a></p>
 		{{ $data := .Data }}
 		{{ range $key,$value := .Data.Terms.ByCount }}
-		<a href="{{ $value.Name | urlize }}"> {{ $value.Name }} <span>{{ $value.Count }}</span></a> 
+		<a href="{{ $value.Name | urlize }}"> {{ $value.Name }} <span>{{ $value.Count }}</span></a>
 		{{ end }}
 	</section>
 {{ partial "footer.html" . }}

@@ -602,5 +602,10 @@ figure.about-figure {
 
 figure.about-figure img {
 	width: 140px;
-	height: 140px;
+	height: auto;
+
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 100%;
 }

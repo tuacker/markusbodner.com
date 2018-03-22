@@ -1,7 +1,6 @@
 {{ partial "head.html" . }}
 {{ partial "meta.html" . }}
 	<title>{{ .Title }} - {{ .Site.Title }}</title>
-{{ partial "analytics.html" . }}
 </head>
 <body>
 {{ partial "header.html" . }}
@@ -10,6 +9,9 @@
         <div class="container post">
             {{ .Content }}
         </div>
+
+        {{ partial "newsletter.html" . }}
     </article>
+
 
 {{ partial "footer.html" . }}
