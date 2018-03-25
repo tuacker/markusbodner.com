@@ -3,7 +3,6 @@ title = "Markus Bodner"
 copyright = "Copyright 2015 by Markus Bodner"
 
 footnotereturnlinkcontents = "↩"
-NewContentEditor = "/usr/local/bin/subl"
 [author]
 	name = "Markus Bodner"
 	email = "me@markusbodner.com"
