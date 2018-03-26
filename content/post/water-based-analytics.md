@@ -7,7 +7,7 @@ draft = false
 
 When we consume food our body tries its best to extract everything in it to keep us going. Not everything gets used of course. There are limits to how much of a particular compound our body can process — or even needs on a day to day basis. The leftover leaves us as waste down the toilet and that's it.
 
-The same holds true for drugs used. A trace amount of the drugs pass through our body and end up in wastewater.
+The same holds true for drugs used. A trace amount of the drugs pass through our body and end up in wastewater.<!--more--> 
 
 In most modern countries this sewage gets directed to a wastewater treatment plant where it is then processed for disposal/reuse. Combining these two elements allows researches to do something quite cool.
 
