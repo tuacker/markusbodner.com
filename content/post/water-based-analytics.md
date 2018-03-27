@@ -19,6 +19,6 @@ For Innsbruck consumption of cocaine has been on the rise between 2016 and Janua
 
 You can check the [Europe-wide study here](http://www.emcdda.europa.eu/topics/pods/waste-water-analysis). Make sure to take a look at the interactive map and toggle between the various drugs & weekdays.
 
-While doing this on a city wide basis is interesting, it can also be done for smaller communities. Like workplaces, schools, concerts, etc. The analysis above mentions this in '*4 - Methods and ethics*'.
+While doing this on a city wide basis is interesting, it can also be done for smaller communities. Like workplaces, schools, concerts, etc. The analysis above mentions this in '*4 - Methods and ethics*', and doing so would be entering dangerous waters.
 
 Turns out we humans leak data in everything we do.
