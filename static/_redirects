@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://markusbodner.netlify.com/* https://www.markusbodner.com/:splat 301!
