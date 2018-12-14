@@ -6,6 +6,8 @@ footnoteReturnLinkContents = "↩"
 enableGitInfo = true
 enableRobotsTXT  = true
 
+theme = "personal-blue"
+
 [permalinks]
   post = ":year/:month/:day/:title/"
 
