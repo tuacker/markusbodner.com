@@ -25,11 +25,8 @@ pygmentsOptions = "linenos=table"
   toLower = false
 
 [[related.indices]]
-  name = "keywords"
-  weight = 100
-[[related.indices]]
   name = "tags"
-  weight = 50
+  weight = 100
 [[related.indices]]
   name = "date"
   weight = 10
