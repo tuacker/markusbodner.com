@@ -3,13 +3,13 @@
 
 name = "Personal Blue"
 license = "MIT"
-licenselink = "https://gitlab.com/tuacker/markusbodner.com/themes/personal-blue/blob/master/LICENSE"
+licenselink = "https://gitlab.com/tuacker/markusbodner.com/blob/master/themes/personal-blue/LICENSE"
 description = "A blue-ish theme for my personal website"
-homepage = "https://www.markusbodner.com.com/"
+homepage = "https://www.markusbodner.com"
 tags = []
 features = []
 min_version = "0.41"
 
 [author]
   name = "Markus Bodner"
-  homepage = "https://www.markusbodner.com.com/"
+  homepage = "https://www.markusbodner.com"
