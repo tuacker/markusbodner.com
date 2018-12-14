@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}" />
+
+  {{ partial "_og.html" . }}
+  {{ partial "_twitter_card.html" . }}
+  {{ partial "_schema.html" . }}
+
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+
+  <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
+</head>
+<body>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
 </html>
