@@ -36,6 +36,11 @@ pygmentsOptions = "linenos=table"
 
 
 # Custom params
+[params]
+  googleSiteVerification = "wNJ6f3EUjLyWtEIj8NWn0Y9QiovwvrpcXGNc2_CFpkM"
+  description = "Website of Markus Bodner. Learn more about me here and read my blog."
+  images = ["images/markus_bodner.jpg"]
+
 [params.author]
   name = "Markus Bodner"
   email = "me@markusbodner.com"
