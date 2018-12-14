@@ -26,3 +26,10 @@ enableRobotsTXT  = true
 
 [blackfriday]
   plainIDAnchors = true
+
+
+# Custom params
+[params.author]
+  name = "Markus Bodner"
+  email = "me@markusbodner.com"
+  twitter = "tuacker"
