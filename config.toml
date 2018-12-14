@@ -11,6 +11,9 @@ theme = "personal-blue"
 [permalinks]
   post = ":year/:month/:day/:title/"
 
+[taxonomies]
+  tag = "tags"
+
 [related]
   threshold = 80
   includeNewer = true
