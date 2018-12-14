@@ -8,6 +8,11 @@ enableRobotsTXT  = true
 
 theme = "personal-blue"
 
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
+
 [permalinks]
   post = ":year/:month/:day/:title/"
 
