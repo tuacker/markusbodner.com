@@ -4,7 +4,7 @@ date = 2017-10-08T09:53:44+02:00
 tags = ["Swift", "iOS"]
 +++
 
-iOS 11 introduced large navigation bar titles. They look great and you should use them on main views. When you use large titles on a ```UITableViewController``` everything works as expected. On scroll the large title hides with a nice animation and returns to a normal smaller one.
+iOS 11 introduced large navigation bar titles. They look great and you should use them on main views. When you use large titles on a ```UITableViewController``` everything works as expected. On scroll the large title hides with a nice animation and returns to a normal smaller one.<!--more-->
 
 There exist two bugs which can prevent the title from showing up. If you set ```prefers large title``` on the navigation bar in the storyboard the setting does not get picked up. I recommend you add the following to the controller you want the large navigation title.
 

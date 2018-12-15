@@ -1,7 +1,7 @@
 +++
 title = "Water Based Analytics"
 date = 2018-03-26T12:40:01+02:00
-tags = ["General"]
+tags = ["General", "Analytics"]
 draft = false
 +++
 

@@ -1,12 +1,12 @@
 +++
 date = "2017-05-16T20:53:04+02:00"
 draft = false
-tags = ["Budget With Claire", "Devlog"]
+tags = ["iOS", "Swift", "XCode", "Realm"]
 title = "Choosing how to persist data in iOS (and beyond)"
 
 +++
 
-One of the first things I looked at for [Budget With Claire](https://budgetwithclaire.com) was how do I store data. There are several ways, all with their pros and cons. Let's look at a few of them and what I ended up with. Here is what I reviewed:
+In one of my iOS projects I had to figure out how I store data. There are several ways, all with their pros and cons. Let's look at a few of them and what I ended up with. Here is what I reviewed:
 
   * NSUserDefaults / NSUbiquitousKeyValueStore
   * SQLite
@@ -35,7 +35,7 @@ Realm Mobile Platform is a database you have to host yourself on your own server
 ### What Is Needed?
 Before deciding on what to use you have to take a step back and and look at your needs. If you only care about a few bits of data go with NSUserDefaults, its easy, quick and works.
 
-For Budget With Claire I know I'll have to work with an ever growing set of data. My users will enter data every day, sometimes several times a day. While my initial version won't have any sort of sync capabilities, it is something I have planned down the line. Finally, I am starting out with iOS but I do have plans for Android later on.
+For my project I know I'll have to work with an ever growing set of data. My users will enter data every day, sometimes several times a day. While my initial version won't have any sort of sync capabilities, it is something I have planned down the line. Finally, I am starting out with iOS but I do have plans for Android later on.
 
 ### Conclusion
 Because I do not want to be locked into any ecosystem and have plans to sync data I ended up choosing Realm. Giving the docs a quick look-over the implementation seems easy enough. I've also heard good things about Realm the past year, so to me this seems a solid choice.

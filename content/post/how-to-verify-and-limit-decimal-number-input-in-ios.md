@@ -1,12 +1,12 @@
 +++
 date = "2017-06-20T13:48:09+02:00"
 draft = false
-tags = ["Swift", "Budget With Claire", "Devlog"]
+tags = ["Swift", "iOS", "XCode"]
 title = "How to verify and limit decimal number inputs in iOS with Swift"
 
 +++
 
-In [Budget With Claire](https://budgetwithclaire.com), an app to manage your personal budget, I need a way for users to enter monetary values. Apple only provides UITextField for inputs which always returns a string. You can define a keyboard layout (decimal pad in my case) but that is where support for numeric inputs in iOS ends.
+Apple only provides UITextField for inputs which always returns a string. You can define a keyboard layout (decimal pad in my case) but that is where support for numeric inputs in iOS ends.<!--more-->
 
 Today I'm going to show you how to limit the characters a user can enter and verify we actually have a number. (_Hint:_ Don't trust the chosen keyboard layout! The user can copy/paste). With the decimal pad keyboard the user can enter strings like `32,241,241,1,1` or `23.13.1.` neither of which are legit numbers, let alone monetary.
 

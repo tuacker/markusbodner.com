@@ -6,7 +6,7 @@ title = "Custom titles per view or controller actions in Phoenix Framework"
 
 +++
 
-The simplest option would be to pass the page title along with the render call in your controller action. For example you could do <code>render(conn, "new.html", page_title: "New Resource")</code>. Then, in your app layout template <code>app.html.eex</code>, access it with <code>\<title\><%= @page_title %>\</title></code>.
+The simplest option would be to pass the page title along with the render call in your controller action. For example you could do <code>render(conn, "new.html", page_title: "New Resource")</code>. Then, in your app layout template <code>app.html.eex</code>, access it with <code>\<title\><%= @page_title %>\</title></code>.<!--more-->
 
 The problem with this approach is that you have to provide the page_title for every controller action. In addition setting the page title should probably be done by the view and not the controller. Here is how you'd do that.
 
