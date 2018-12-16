@@ -42,7 +42,7 @@
     "image": "{{ $featured.Permalink }}",
     {{- else -}}
     {{- with $.Site.Params.images }}
-    "image:" "{{ index . 0 | absURL }}",
+    "image": "{{ index . 0 | absURL }}",
     {{- end }}
     {{- end }}
     {{- end }}
