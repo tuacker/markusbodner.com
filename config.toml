@@ -15,6 +15,7 @@ pygmentsOptions = "linenos=table"
 
 [permalinks]
   post = ":year/:month/:day/:title/"
+  pages = ":filename/"
 
 [taxonomies]
   tag = "tags"
@@ -29,13 +30,13 @@ pygmentsOptions = "linenos=table"
   name = "About"
   weight = 2
   identifier = "about"
-  url = "/about"
+  url = "/about/"
 
 [[menu.main]]
   name = "Newsletter"
   weight = 3
   identifier = "newsletter"
-  url = "/newsletter"
+  url = "/newsletter/"
 
 [related]
   threshold = 80
