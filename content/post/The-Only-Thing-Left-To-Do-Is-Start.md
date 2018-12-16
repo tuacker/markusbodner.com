@@ -2,7 +2,7 @@
 date = "2015-05-05T11:18:49+02:00"
 draft = false
 tags = ["Life", "Maker"]
-title = "The Only Thing Left To Do Is Start"
+title = "The only thing left to do is start"
 
 +++
 
