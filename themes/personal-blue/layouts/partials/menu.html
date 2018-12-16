@@ -1,0 +1,5 @@
+{{- range .Site.Menus.main }}
+<a href="{{ .URL }}">{{ .Name }}</a>
+{{- end }}
+<a href="https://twitter.com/{{ .Site.Params.author.twitter }}">Twitter</a>
+<a href="mailto:{{ .Site.Params.author.email }}">Email</a>

@@ -14,9 +14,20 @@
 
   <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
 </head>
+
 <body>
-  <main>
+  <nav class="main-nav">
+    {{ partial "menu.html" . }}
+  </nav>
+
     {{ block "main" . }}{{ end }}
   </main>
+
+  <footer class="footer">
+    <span>&copy; {{ .Site.Params.author.name }}</span>
+    <nav class="footer-nav">
+      {{ partial "menu.html" . }}
+    </nav>
+  </footer>
 </body>
 </html>
