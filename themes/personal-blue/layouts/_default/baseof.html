@@ -20,8 +20,17 @@
     {{ partial "menu.html" . }}
   </nav>
 
+  <aside class="intro">
+    <p>Hi, I'm <a href="{{ ref . "about/_index.md" }}">Markus</a>.  Founder of <a href="https://www.adsfromsource.com">Ads From Source</a>. <span class="intro__action">{{ block "intro__action" . }}Welcome!{{ end }}</span></p>
+  </aside>
+
+  <main class="content">
     {{ block "main" . }}{{ end }}
   </main>
+
+  <div class="newsletter">
+    join newsletter
+  </div>
 
   <footer class="footer">
     <span>&copy; {{ .Site.Params.author.name }}</span>
