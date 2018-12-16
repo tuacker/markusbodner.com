@@ -19,6 +19,24 @@ pygmentsOptions = "linenos=table"
 [taxonomies]
   tag = "tags"
 
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  identifier = "post"
+  url = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  identifier = "about"
+  url = "/about"
+
+[[menu.main]]
+  name = "Newsletter"
+  weight = 3
+  identifier = "newsletter"
+  url = "/newsletter"
+
 [related]
   threshold = 80
   includeNewer = true
