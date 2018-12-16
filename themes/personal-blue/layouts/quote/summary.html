@@ -1,6 +1,7 @@
 <article class="post">
   <h2>
-    {{ with .Params.link }}<a href="{{ . }}">{{.Title}}</a>{{ else }}{{ .Title }}{{ end }}
+    {{ $title := .Title }}
+    {{ with .Params.link }}<a href="{{ . }}">{{$title}}</a>{{ else }}{{ $title }}{{ end }}
   </h2>
   <time datetime="{{ .Date.Format "2006-01-02" }}" class="post__date">{{ .Date.Format "January 02, 2006" }}</time>
   <a href="{{ .RelPermalink }}" class="post__permalink">⚓︎</a>
