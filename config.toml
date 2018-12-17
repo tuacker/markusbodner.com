@@ -21,7 +21,7 @@ pygmentsOptions = "linenos=table"
   tag = "tags"
 
 [[menu.main]]
-  name = "Blog"
+  name = "Home"
   weight = 1
   identifier = "post"
   url = "/"
