@@ -2,4 +2,5 @@
 {{ range first 10 .Pages }}
   {{ .Render "summary"}}
 {{ end }}
+<a href="{{ relref . "/page/archive.md" }}">Older posts</a>
 {{- end -}}
