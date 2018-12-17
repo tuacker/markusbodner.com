@@ -15,27 +15,34 @@
 
 // Grid layout for supported browsers ******************************************
 @supports (display: grid) {
+  .main-nav { grid-area: nav; }
+  .intro { grid-area: intro; }
+  .content { grid-area: content; }
+  .content { grid-area: content; }
+  .newsletter { grid-area: newsletter; }
+  .footer { grid-area: footer; }
+
+  body {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-areas:
+      "nav"
+      "intro"
+      "content"
+      "newsletter"
+      "footer";
+
+    justify-items: center;
+  }
+
   @media screen and (min-width: 1365px) {
-    .main-nav, .intro, .content, .newsletter, .footer {
-      // reset base layout margins etc.
-      margin: 0;
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-    .main-nav { grid-area: nav; }
-    .intro { grid-area: intro; }
-    .content { grid-area: content; }
-    .content { grid-area: content; }
-    .newsletter { grid-area: newsletter; }
-    .footer { grid-area: footer; }
-
     html { height: 100%; }
 
     body {
       min-height: 100%;
 
-      display: grid;
       grid-gap: 40px;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto 1fr auto auto;
@@ -48,11 +55,8 @@
 
     .intro {
       max-width: 10rem;
+      margin: 0;
       justify-self: end;
-    }
-
-    .main-nav, .content, .newsletter, .footer {
-      justify-self: center;
     }
   }
 }
