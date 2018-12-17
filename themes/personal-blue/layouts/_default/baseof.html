@@ -12,7 +12,7 @@
   <link rel="canonical" href="{{ .Permalink }}">
   <link href="{{ $.Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}">
 
-  {{ $stylesheet := resources.Get "scss/main.scss" | resources.ToCSS }}
+  {{ $stylesheet := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "outputStyle" "compressed") | minify }}
   {{ with $stylesheet }}
   <link rel="stylesheet" type="text/css" href="{{ .Permalink | relURL }}">
   {{ end }}
