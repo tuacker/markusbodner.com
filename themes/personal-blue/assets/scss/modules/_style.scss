@@ -2,6 +2,12 @@ body {
   background-color: $background-color;
 }
 
+.main-nav .nav__item {
+  color: $blue-dark;
+
+  &:hover { color: $blue-darker; }
+}
+
 .intro {
   font-size: 1.44rem;
   font-weight: 900;

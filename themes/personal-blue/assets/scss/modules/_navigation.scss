@@ -1,0 +1,9 @@
+// Main navigation
+
+.main-nav {
+  margin: 0 auto;
+  text-align: center;
+
+  .nav__item { margin-right: 1rem; }
+  .nav__item:last-of-type { margin-right: 0; }
+}
