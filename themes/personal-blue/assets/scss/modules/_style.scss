@@ -2,7 +2,7 @@ body {
   background-color: $background-color;
 }
 
-.main-nav .nav__item {
+.main-nav .nav__item, .footer-nav .nav__item {
   color: $blue-dark;
 
   &:hover { color: $blue-darker; }
@@ -58,6 +58,9 @@ body {
   }
 }
 
+.footer {
+  color: $text-color-light;
+}
 
 .archive {
   margin: 0;
