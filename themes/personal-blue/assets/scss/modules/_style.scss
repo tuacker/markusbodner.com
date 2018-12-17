@@ -5,11 +5,14 @@ body {
 .post {
   margin-bottom: 3rem;
 
-  .post__header { margin-bottom: 0.5rem; }
+  .post__header {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
 
   .post__title {
-    display: inline;
-    margin-right: 0.5rem;
+    margin-top: 0;
+    font-weight: 900;
   }
 
   .post__date {
@@ -17,7 +20,22 @@ body {
     white-space: nowrap;
   }
 
-  &.post--quote > .post__permalink { display: none; }
-  &.post--quote:hover > .post__permalink { display: inline-block; }
+  &.post--preview {
+    .post__header { text-align: inherit; }
+
+    .post__title {
+      display: inline;
+      margin-right: 0.5rem;
+
+      font-weight: bold;
+    }
+  }
+
+  &.post--quote {
+    .post__permalink { display: none; }
+    &:hover > .post__permalink { display: inline-block; }
+
+    .post__quote-link { text-decoration: underline; }
+  }
 }
 
