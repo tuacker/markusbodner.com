@@ -24,7 +24,7 @@
 
   body {
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 3rem;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto auto;
     grid-template-areas:
@@ -37,13 +37,13 @@
     justify-items: center;
   }
 
-  @media screen and (min-width: 1365px) {
+  @media screen and (min-width: 1000px) {
     html { height: 100%; }
 
     body {
       min-height: 100%;
 
-      grid-gap: 40px;
+      grid-gap: 3rem;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: auto 1fr auto auto;
       grid-template-areas:
