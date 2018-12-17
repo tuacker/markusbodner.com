@@ -12,6 +12,11 @@
   <link rel="canonical" href="{{ .Permalink }}">
   <link href="{{ $.Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}">
 
+  {{ $stylesheet := resources.Get "scss/main.scss" | resources.ToCSS }}
+  {{ with $stylesheet }}
+  <link rel="stylesheet" type="text/css" href="{{ .Permalink | relURL }}">
+  {{ end }}
+
   <title>{{ block "title" . }}{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}{{ end }}</title>
 </head>
 
