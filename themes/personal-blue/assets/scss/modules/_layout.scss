@@ -1,5 +1,9 @@
 // Layout
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 // Base layout (mobile/no css grid support) ************************************
 .main-nav, .intro, .content, .newsletter, .footer {
   width: 100%;
@@ -15,11 +19,6 @@
 
 // Grid layout for supported browsers ******************************************
 @supports (display: grid) {
-  .main-nav, .intro, .content, .newsletter, .footer {
-    width: auto;
-    margin: 0;
-  }
-
   .main-nav { grid-area: nav; }
   .intro { grid-area: intro; }
   .content { grid-area: content; }
