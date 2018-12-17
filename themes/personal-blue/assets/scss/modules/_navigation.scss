@@ -18,6 +18,22 @@
   .footer-nav {
     display: inline-block;
     margin: 0;
+
     text-align: right;
+  }
+
+  @media screen and (max-width: 450px) {
+    display: block;
+    text-align: center;
+
+    .footer-nav {
+      display: block;
+      text-align: center;
+
+      .nav__item {
+        display: block;
+        margin: 0 0 .2rem 0;
+      }
+    }
   }
 }
