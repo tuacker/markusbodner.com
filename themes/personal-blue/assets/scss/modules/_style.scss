@@ -2,6 +2,19 @@ body {
   background-color: $background-color;
 }
 
+.intro {
+  font-size: 1.44rem;
+  font-weight: 900;
+  color: $blue-darker;
+}
+
+@media screen and (min-width: 1000px) {
+  .intro__action {
+    display: block;
+    margin-top: 3rem;
+  }
+}
+
 .post {
   margin-bottom: 3rem;
 
