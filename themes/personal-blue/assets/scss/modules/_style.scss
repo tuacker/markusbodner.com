@@ -27,11 +27,28 @@ body {
   .post__header {
     margin-bottom: 0.5rem;
     text-align: center;
+
+    -webkit-background-clip: text;
+            background-clip: text;
+
+    background-image: -moz-linear-gradient(left, #4a89dc 30%, #415775 100%);
+    background-image: -webkit-linear-gradient(left, #4a89dc 30%,#415775 100%);
+    background-image: linear-gradient(to right, #4a89dc 30%,#415775 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a89dc', endColorstr='#415775',GradientType=1 );
+
+    &:hover {
+      background-image: -moz-linear-gradient(right, #4a89dc 30%, #415775 100%);
+      background-image: -webkit-linear-gradient(right, #4a89dc 30%,#415775 100%);
+      background-image: linear-gradient(to left, #4a89dc 30%,#415775 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#415775', endColorstr='#4a89dc',GradientType=1 );
+    }
   }
 
   .post__title {
     margin-top: 0;
     font-weight: 900;
+
+    a { color: transparent; }
   }
 
   .post__date {
