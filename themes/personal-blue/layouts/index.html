@@ -1,5 +1,5 @@
 {{- define "main" -}}
-{{ range first 10 .Pages }}
+{{ range first 10 (where .Pages "Section" "!=" "page") }}
   {{ .Render "summary"}}
 {{ end }}
 <a href="{{ relref . "/page/archive.md" }}">Older posts</a>
