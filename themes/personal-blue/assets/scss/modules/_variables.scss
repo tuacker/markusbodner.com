@@ -1,9 +1,18 @@
 // Variables
 
 // Colors **********************************************************************
-$text-color: #000;
+$blue: #4A89DC;
+$blue-darker: #284975;
+
+$text-color: #061B36;
+$text-color-light: #8294AB;
+
+$primary: $blue;
+$primary-light: $blue-darker;
+
+$background-color: #FCFCFC;
 
 // Typography ******************************************************************
 $font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$base-font-size: 18px;
+$base-font-size: 14px;
 $base-line-height: 1.5;

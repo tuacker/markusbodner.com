@@ -1,0 +1,23 @@
+body {
+  background-color: $background-color;
+}
+
+.post {
+  margin-bottom: 3rem;
+
+  .post__header { margin-bottom: 0.5rem; }
+
+  .post__title {
+    display: inline;
+    margin-right: 0.5rem;
+  }
+
+  .post__date {
+    color: $text-color-light;
+    white-space: nowrap;
+  }
+
+  &.post--quote > .post__permalink { display: none; }
+  &.post--quote:hover > .post__permalink { display: inline-block; }
+}
+
