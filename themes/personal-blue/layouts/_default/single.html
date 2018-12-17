@@ -1,3 +1,5 @@
+{{ define "intro__action" }}You're <a href="{{ .RelPermalink }}">{{ .Params.introAction | default "reading" }}</a>.{{ end }}
+
 {{- define "main" -}}
 <article class="post">
   <header class="post__header">

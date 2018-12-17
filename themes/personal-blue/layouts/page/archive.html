@@ -1,3 +1,5 @@
+{{ define "intro__action" }}You're <a href="{{ .RelPermalink }}">{{ .Params.introAction | default "time traveling" }}</a>.{{ end }}
+
 {{- define "main" -}}
 <h1>{{ .Title }}</h1>
 <ol class="archive">

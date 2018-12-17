@@ -26,7 +26,7 @@
   </nav>
 
   <aside class="intro">
-    <p>Hi, I'm <a href="{{ relref . "/page/about.md" }}">Markus</a>.  Founder of <a href="https://www.adsfromsource.com" target="_blank">Ads From Source</a>. <span class="intro__action">{{ block "intro__action" . }}Welcome!{{ end }}</span></p>
+    <p>Hi, I'm <a href="{{ relref . "/page/about.md" }}">Markus</a>.  Founder of <a href="https://www.adsfromsource.com" target="_blank">Ads From Source</a>. <span class="intro__action">{{- block "intro__action" . -}}Welcome!{{- end -}}</span></p>
   </aside>
 
   <main class="content">
