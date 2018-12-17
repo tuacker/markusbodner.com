@@ -52,3 +52,14 @@ body {
   }
 }
 
+
+.archive {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .archive__date {
+    color: $text-color-light;
+    font-family: $font-family-monospace;
+  }
+}
