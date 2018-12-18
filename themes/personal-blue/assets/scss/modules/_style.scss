@@ -67,7 +67,7 @@ body {
   }
 }
 
-.photo-gallery {
+.gallery {
   display: grid;
 
   grid-gap: 1rem;
@@ -75,11 +75,11 @@ body {
 
   margin-bottom: 3rem;
 
-  .photo-gallery__preview, .photo-gallery__more {
+  .gallery__preview, .gallery__more {
     border-radius: $border-radius;
   }
 
-  .photo-gallery__more {
+  .gallery__more {
     justify-self: center;
     align-self: center;
   }
