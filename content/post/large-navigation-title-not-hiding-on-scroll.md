@@ -28,7 +28,7 @@ If the ```tableView``` is not the first view in your storyboard, the large title
 
 To fix this issue drag and drop the ```tableView``` on top of every other view.
 
-{{< figure src="/media/images/storyboard.png" alt="" >}}
+![screenshot of xcode interface builder showing where to drag item](/images/storyboard.png)
 
 If you are creating the layout via code you most likely need to make sure your ```tableView``` is the first element in the main view's ```subviews``` array.
 
