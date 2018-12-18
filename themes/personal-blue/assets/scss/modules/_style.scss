@@ -9,11 +9,21 @@ body {
 }
 
 .intro {
-  font-size: 1.44rem;
+  font-size: 1.2rem;
   font-weight: 900;
   color: $blue-darker;
 
+  .intro__image {
+    display: none;
+  }
+
   @media screen and (min-width: 1000px) {
+    .intro__image {
+      display: inline-block;
+      width: 4rem;
+      border-radius: 100%;
+    }
+
     .intro__action {
       display: block;
       margin-top: 3rem;

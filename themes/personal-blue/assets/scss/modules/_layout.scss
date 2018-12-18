@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 // Base layout (mobile/no css grid support) ************************************
 .main-nav, .intro, .content, .newsletter, .footer {
   width: 100%;
