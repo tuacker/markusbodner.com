@@ -67,6 +67,28 @@ body {
   }
 }
 
+.gallery {
+  display: grid;
+
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-bottom: 3rem;
+
+  &.gallery--inline {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .gallery__preview, .gallery__more {
+    border-radius: $border-radius;
+  }
+
+  .gallery__more {
+    justify-self: center;
+    align-self: center;
+  }
+}
+
 .footer {
   color: $text-color-light;
 }
