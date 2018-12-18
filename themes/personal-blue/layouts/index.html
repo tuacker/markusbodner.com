@@ -1,6 +1,21 @@
 {{- define "main" -}}
-{{ range first 10 (where .Pages "Section" "!=" "page") }}
-  {{ .Render "summary"}}
+{{ range $index, $element := first 10 (where .Pages "Section" "!=" "page") }}
+  {{ $element.Render "summary"}}
+
+  {{ if eq $index 2 }}
+    {{ $gallery_link := relref . "/photo/_index.md" }}
+    {{ with $photos := (($.Site.GetPage "/photo").Resources.ByType "image") }}
+      <aside class="photo-gallery">
+      {{ range first 9 $photos }}
+        <a href="{{ $gallery_link }}"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="photo-gallery__preview"></a>
+      {{ end }}
+        <div class="photo-gallery__more">
+          <a href="{{ $gallery_link }}">More</a>
+        </div>
+      </aside>
+    {{ end }}
+  {{ end }}
 {{ end }}
 <a href="{{ relref . "/page/archive.md" }}">Archived articles...</a>
 {{- end -}}
+

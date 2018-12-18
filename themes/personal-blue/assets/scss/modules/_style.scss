@@ -67,6 +67,24 @@ body {
   }
 }
 
+.photo-gallery {
+  display: grid;
+
+  grid-gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+
+  margin-bottom: 3rem;
+
+  .photo-gallery__preview, .photo-gallery__more {
+    border-radius: $border-radius;
+  }
+
+  .photo-gallery__more {
+    justify-self: center;
+    align-self: center;
+  }
+}
+
 .footer {
   color: $text-color-light;
 }
