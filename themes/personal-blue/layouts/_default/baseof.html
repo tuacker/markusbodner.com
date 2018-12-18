@@ -9,6 +9,8 @@
   {{ partial "_twitter_card.html" . }}
   {{ partial "_schema.html" . }}
 
+  <meta name="description" content="{{ with .Description }}{{ . | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ else }}{{ with .Site.Params.description }}{{ . | plainify }}{{ end }}{{ end }}{{ end -}}"/>
+
   <link rel="canonical" href="{{ .Permalink }}">
   <link href="{{ $.Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}">
 
