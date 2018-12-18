@@ -70,8 +70,9 @@ body {
 .gallery {
   display: grid;
 
-  grid-gap: 1rem;
+  grid-gap: 2px;
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: 1fr;
 
   margin-bottom: 3rem;
 
@@ -79,9 +80,9 @@ body {
     grid-template-columns: repeat(5, 1fr);
   }
 
-  .gallery__preview, .gallery__more {
-    border-radius: $border-radius;
-  }
+  // Fixes extra "gap" due to img being nested in <a>
+  .gallery__preview { display: inline-block; }
+  .gallery__preview img { display: block; }
 
   .gallery__more {
     justify-self: center;

@@ -8,7 +8,7 @@
     {{ $photos := sort $photos "Name" "desc" }}
       <aside class="gallery gallery--inline">
       {{ range first 9 $photos }}
-        <a href="{{ $gallery_link }}"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="gallery__preview"></a>
+        <a href="{{ $gallery_link }}" class="gallery__preview"><img src="{{ (.Fill "220x220 smart").RelPermalink }}"></a>
       {{ end }}
         <div class="gallery__more">
           <a href="{{ $gallery_link }}">More</a>

@@ -7,7 +7,7 @@
   {{ $photos := (.Resources.ByType "image") }}
   {{ $photos := sort $photos "Name" "desc" }}
   {{ range $photos }}
-    <a href="{{ .RelPermalink }}" target="_blank"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="gallery__preview"></a>
+    <a href="{{ .RelPermalink }}" target="_blank" class="gallery__preview"><img src="{{ (.Fill "220x220 smart").RelPermalink }}"></a>
   {{ end }}
 </div>
 {{- end -}}
