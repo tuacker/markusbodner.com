@@ -1,0 +1,11 @@
+{{ define "intro__action" }}{{ partial "intro-action" . }}{{ end }}
+
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+
+<div class="photo-gallery">
+  {{ range  (.Resources.ByType "image") }}
+    <a href="{{ .RelPermalink }}" target="_blank"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="photo-gallery__preview"></a>
+    {{ end }}
+</div>
+{{- end -}}
