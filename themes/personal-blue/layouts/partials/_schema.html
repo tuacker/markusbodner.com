@@ -5,11 +5,12 @@
     "@context": "https://schema.org",
     "@type": "{{ if .IsPage }}Article{{ else }}Website{{ end }}",
     "publisher": {
-        "@type": "Person",
-        "name": "{{ $author_name }}",
+        "@type": "Organization",
+        "logo": "{{ $author_name }}",
         {{ with $author_image }}"image": "{{ .Permalink }}",{{ end }}
         "url": "{{ .Site.BaseURL }}",
         "sameAs": [
+            "{{.Site.BaseURL}}",
             "https://twitter.com/{{ .Site.Params.author.twitter }}"
         ]
     },
