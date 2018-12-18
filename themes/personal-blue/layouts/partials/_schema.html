@@ -7,7 +7,12 @@
     "publisher": {
         "@type": "Organization",
         "name": "{{ $author_name }}",
-        {{ with $author_image }}"logo": "{{ .Permalink }}",{{ end }}
+        {{ with $author_image }}"logo": {
+            "@type": "ImageObject",
+            "url": {{ ($author_image.Fit "144x144").Permalink }}",
+            "width": 60,
+            "height": 60
+        },{{ end }}
         "url": "{{ .Site.BaseURL }}",
         "sameAs": [
             "{{.Site.BaseURL}}",
