@@ -3,9 +3,11 @@
 {{- define "main" -}}
 <h1>{{ .Title }}</h1>
 
-<div class="photo-gallery">
-  {{ range  (.Resources.ByType "image") }}
-    <a href="{{ .RelPermalink }}" target="_blank"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="photo-gallery__preview"></a>
-    {{ end }}
+<div class="gallery">
+  {{ $photos := (.Resources.ByType "image") }}
+  {{ $photos := sort $photos "Name" "desc" }}
+  {{ range $photos }}
+    <a href="{{ .RelPermalink }}" target="_blank"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="gallery__preview"></a>
+  {{ end }}
 </div>
 {{- end -}}

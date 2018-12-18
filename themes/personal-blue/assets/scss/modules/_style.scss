@@ -71,9 +71,13 @@ body {
   display: grid;
 
   grid-gap: 1rem;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
   margin-bottom: 3rem;
+
+  &.gallery--inline {
+    grid-template-columns: repeat(5, 1fr);
+  }
 
   .gallery__preview, .gallery__more {
     border-radius: $border-radius;

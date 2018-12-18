@@ -5,11 +5,12 @@
   {{ if eq $index 2 }}
     {{ $gallery_link := relref . "/gallery/_index.md" }}
     {{ with $photos := (($.Site.GetPage "/gallery").Resources.ByType "image") }}
-      <aside class="photo-gallery">
+    {{ $photos := sort $photos "Name" "desc" }}
+      <aside class="gallery gallery--inline">
       {{ range first 9 $photos }}
-        <a href="{{ $gallery_link }}"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="photo-gallery__preview"></a>
+        <a href="{{ $gallery_link }}"><img src="{{ (.Fill "220x220 smart").RelPermalink }}" class="gallery__preview"></a>
       {{ end }}
-        <div class="photo-gallery__more">
+        <div class="gallery__more">
           <a href="{{ $gallery_link }}">More</a>
         </div>
       </aside>
