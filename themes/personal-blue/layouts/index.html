@@ -1,9 +1,9 @@
 {{- define "main" -}}
-{{ range $index, $element := first 10 (where .Pages "Section" "!=" "page") }}
+{{ range $index, $element := first 10 (where .Pages "Section" "in" .Site.Params.mainSections) }}
   {{ $element.Render "summary"}}
 
   {{ if eq $index 2 }}
-    {{ $gallery_link := relref . "/gallery/_index.md" }}
+    {{ $gallery_link := relref . "/gallery/index.md" }}
     {{ with $photos := (($.Site.GetPage "/gallery").Resources.ByType "image") }}
     {{ $photos := sort $photos "Name" "desc" }}
       <aside class="gallery gallery--inline">

@@ -13,6 +13,8 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 
+disableKinds = ["section"]
+
 [outputs]
   home     = ["HTML", "RSS"]
   section  = ["HTML"]
@@ -71,6 +73,7 @@ pygmentsOptions = "linenos=table"
   googleSiteVerification = "wNJ6f3EUjLyWtEIj8NWn0Y9QiovwvrpcXGNc2_CFpkM"
   description = "Website of Markus Bodner. Learn more about me here and read my blog."
   images = ["images/markus_bodner.jpg"]
+  mainSections = ["post", "til", "quote"]
 
 [params.author]
   name = "Markus Bodner"

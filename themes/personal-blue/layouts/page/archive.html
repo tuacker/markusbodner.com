@@ -3,7 +3,7 @@
 {{- define "main" -}}
 <h1>{{ .Title }}</h1>
 <ol class="archive">
-{{ range where .Site.RegularPages "Section" "!=" "page" }}
+{{ range where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
   {{ .Render "li" }}
 {{ end }}
 </ol>
