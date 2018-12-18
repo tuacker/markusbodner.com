@@ -32,7 +32,7 @@
     <img src="{{ $author_image.RelPermalink }}" alt="Picture of {{ $author_name }}" class="intro__image">
     {{ end }}
 
-    <p>Hi, I'm <a href="{{ relref . "/page/about.md" }}">Markus</a>.  Founder of <a href="https://www.adsfromsource.com" target="_blank">Ads From Source</a>. <span class="intro__action">{{- block "intro__action" . -}}Welcome!{{- end -}}</span></p>
+    <p>Hi, I'm <a href="https://twitter.com/{{ .Site.Params.author.twitter }}" target="_blank">Markus</a>.  Founder of <a href="https://www.adsfromsource.com" target="_blank">Ads From Source</a>. <span class="intro__action">{{- block "intro__action" . -}}Welcome!{{- end -}}</span></p>
   </aside>
 
   <main class="content">
