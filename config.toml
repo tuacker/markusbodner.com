@@ -35,8 +35,14 @@ pygmentsOptions = "linenos=table"
 #   url = "/about/"
 
 [[menu.main]]
+  name = "Gallery"
+  weight = 4
+  identifier = "gallery"
+  url = "/gallery/"
+
+[[menu.main]]
   name = "Newsletter"
-  weight = 3
+  weight = 4
   identifier = "newsletter"
   url = "/newsletter/"
 
