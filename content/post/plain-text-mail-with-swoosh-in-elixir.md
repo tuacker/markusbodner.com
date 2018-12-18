@@ -3,7 +3,7 @@ title = "Sending plain text and HTML emails using EEx and Swoosh in Phoenix & El
 draft = false
 tags = ["Elixir"]
 date = "2017-03-22T12:25:17+01:00"
-
+images = ["/images/flavio-amiel-537773-unsplash.jpg"]
 +++
 
 While working on a SaaS built with the Phoenix Framework I needed to be able to send emails.
@@ -75,3 +75,6 @@ end
 We're calling `render_body/2` twice, Swoosh looks at the template extension (html, text) and correctly puts them either in the HTML part or plain-text part of your email.
 
 Have fun sending emails!
+
+
+![brown Lettere signage on teal trwall](/images/flavio-amiel-537773-unsplash.jpg)

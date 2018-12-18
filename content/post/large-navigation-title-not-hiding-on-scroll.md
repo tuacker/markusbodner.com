@@ -2,6 +2,7 @@
 title = "Fix large navigation bar title not hiding on scroll in iOS 11"
 date = 2017-10-08T09:53:44+02:00
 tags = ["Swift", "iOS"]
+images = ["/images/alexander-andrews-636454-unsplash.jpg"]
 +++
 
 iOS 11 introduced large navigation bar titles. They look great and you should use them on main views. When you use large titles on a ```UITableViewController``` everything works as expected. On scroll the large title hides with a nice animation and returns to a normal smaller one.<!--more-->
@@ -30,3 +31,5 @@ To fix this issue drag and drop the ```tableView``` on top of every other view.
 {{< figure src="/media/images/storyboard.png" alt="" >}}
 
 If you are creating the layout via code you most likely need to make sure your ```tableView``` is the first element in the main view's ```subviews``` array.
+
+![black and gray compass on top of map](/images/alexander-andrews-636454-unsplash.jpg)

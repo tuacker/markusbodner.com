@@ -3,8 +3,8 @@ title = "Respecting our users time and attention"
 date = 2018-02-21T14:46:09+01:00
 tags = ["General"]
 draft = false
+images = ["/images/stefan-cosma-362616-unsplash.jpg"]
 +++
-
 Over the last decade there has been a rise in everyday tools fighting for our constant attention. Smartphones gaining widespread use have been big enablers of this.<!--more-->
 
 After living with a constant barrage of interruptions for years I'm noticing a change. Friends and people I follow have started to restrict which apps get to show so much as an unread-count badge. 
@@ -21,3 +21,5 @@ Using the example above, I could add a count of how many hours you watched TV an
 I see it as our obligation as designers/makers to build products which respect our users time and attention. Make every form of interruption opt-in. Don't try to add fictional internet points and social to everything.
 
 When you find yourself in the position where your boss asks you to implement such manipulative tactics you have to make a choice. Try to push back. This can be difficult, especially when you depend on your job for food and a home. It is worth the effort though.
+
+![turned on Focus signage](/images/stefan-cosma-362616-unsplash.jpg)

@@ -3,7 +3,7 @@ date = "2017-05-16T20:53:04+02:00"
 draft = false
 tags = ["iOS", "Swift", "XCode", "Realm"]
 title = "Choosing how to persist data in iOS (and beyond)"
-
+images = ["/images/samuel-zeller-118195-unsplash.jpg"]
 +++
 
 In one of my iOS projects I had to figure out how I store data. There are several ways, all with their pros and cons. Let's look at a few of them and what I ended up with. Here is what I reviewed:
@@ -41,3 +41,6 @@ For my project I know I'll have to work with an ever growing set of data. My use
 Because I do not want to be locked into any ecosystem and have plans to sync data I ended up choosing Realm. Giving the docs a quick look-over the implementation seems easy enough. I've also heard good things about Realm the past year, so to me this seems a solid choice.
 
 The only thing I am currently unsure about is how easy or hard it'll be to move from a on-device only setup to one with data synchronization. But I will cross that bridge once it is time. I'm also aware of having to self-host the DB on my own server but I've already got experience in that and this won't be an issue for me.
+
+
+![boxes on rack inside room](/images/samuel-zeller-118195-unsplash.jpg)

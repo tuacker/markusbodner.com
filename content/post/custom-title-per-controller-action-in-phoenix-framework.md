@@ -3,7 +3,7 @@ date = "2016-03-27T12:46:38+02:00"
 draft = false
 tags = ["Phoenix Framework", "Elixir"]
 title = "Custom titles per view or controller actions in Phoenix Framework"
-
+images = ["/images/nick-fewings-642060-unsplash.jpg"]
 +++
 
 The simplest option would be to pass the page title along with the render call in your controller action. For example you could do <code>render(conn, "new.html", page_title: "New Resource")</code>. Then, in your app layout template <code>app.html.eex</code>, access it with <code>\<title\><%= @page_title %>\</title></code>.<!--more-->
@@ -67,3 +67,5 @@ def title(_),      do: "Users"
 ```
 
 Now <code>title @conn, "My Default Title"</code> will call <code>title/2</code> defined in our <code>web/views/layout_view.ex</code>, which in turn via <code>apply/3</code> calls the <code>title/1</code> function of the current view module that is being rendered. If no function matches or none is found "My Default Title" is used instead.
+
+![assorted-title book lot placed on white wooden shelf](/images/nick-fewings-642060-unsplash.jpg)

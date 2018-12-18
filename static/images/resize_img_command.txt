@@ -1,0 +1,2 @@
+# mogrifiy is from ImageMagick
+mogrify -path smaller/ -resize 1440x *.jpg

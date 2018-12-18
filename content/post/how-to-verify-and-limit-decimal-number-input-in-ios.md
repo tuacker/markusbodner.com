@@ -3,7 +3,7 @@ date = "2017-06-20T13:48:09+02:00"
 draft = false
 tags = ["Swift", "iOS", "XCode"]
 title = "How to verify and limit decimal number inputs in iOS with Swift"
-
+images = ["/images/ludovic-charlet-544834-unsplash.jpg"]
 +++
 
 Apple only provides UITextField for inputs which always returns a string. You can define a keyboard layout (decimal pad in my case) but that is where support for numeric inputs in iOS ends.<!--more-->
@@ -91,3 +91,6 @@ First we create a NumberFormatter, a locale aware way to get numbers from String
 Now we have a textField input that only accepts valid numbers, respects locale specific decimal separators and limits the number of decimal places to whatever we want.
 
 The user can never enter a non-valid number, not even by pasting in some garbage and once they're ready to save you can be sure it is valid. (Of course the textField can still be empty!)
+
+
+![Speed Limit 55 signage on road](/images/ludovic-charlet-544834-unsplash.jpg)
