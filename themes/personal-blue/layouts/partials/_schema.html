@@ -6,8 +6,8 @@
     "@type": "{{ if .IsPage }}Article{{ else }}Website{{ end }}",
     "publisher": {
         "@type": "Organization",
-        "logo": "{{ $author_name }}",
-        {{ with $author_image }}"image": "{{ .Permalink }}",{{ end }}
+        "name": "{{ $author_name }}",
+        {{ with $author_image }}"logo": "{{ .Permalink }}",{{ end }}
         "url": "{{ .Site.BaseURL }}",
         "sameAs": [
             "{{.Site.BaseURL}}",
