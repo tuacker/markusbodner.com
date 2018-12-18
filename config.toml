@@ -13,6 +13,10 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=table"
 
+[outputs]
+  home     = ["HTML", "RSS"]
+  section  = ["HTML"]
+
 [permalinks]
   post = ":year/:month/:day/:title/"
   til = "til/:year/:month/:day/:title/"
