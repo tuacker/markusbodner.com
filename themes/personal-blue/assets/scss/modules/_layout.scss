@@ -45,14 +45,14 @@ img {
     justify-items: center;
   }
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1130px) {
     html { height: 100%; }
 
     body {
       min-height: 100%;
 
       grid-gap: 3rem;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: minmax(16rem, 1fr) 20rem 20rem 1fr;
       grid-template-rows: auto 1fr auto auto;
       grid-template-areas:
         "..... nav        nav .........."
