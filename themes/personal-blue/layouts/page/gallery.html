@@ -5,7 +5,7 @@
 <p>Some pictures I've taken on this beautiful blue dot, hurtling through space.</p>
 
 <div class="gallery">
-  {{ $photos := (.Resources.ByType "image") }}
+  {{ $photos := (($.Site.GetPage "/gallery").Resources.ByType "image") }}
   {{ $photos := sort $photos "Name" "desc" }}
   {{ range $photos }}
     <a href="{{ .RelPermalink }}" target="_blank" class="gallery__preview"><img src="{{ (.Fill "220x220 smart").RelPermalink }}"></a>
