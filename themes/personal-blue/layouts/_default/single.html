@@ -11,7 +11,9 @@
       <a href="{{ .RelPermalink }}">{{ $title }}</a>
       {{- end -}}
     </h1>
-    <time datetime="{{ .Date.Format "2006-01-02" }}" class="post__date">{{ .Date.Format "January 02, 2006" }}</time>
+    <div class="post__info">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time> - {{- range .Param "tags" -}}{{- $name := (lower .) -}}{{- with $.Site.GetPage (printf "/tags/%s" $name) -}}<a href="{{ .RelPermalink }}"> #{{ $name }}</a>{{- end -}}{{- end -}}
+    </div>
   </header>
 
   {{ .Content }}
