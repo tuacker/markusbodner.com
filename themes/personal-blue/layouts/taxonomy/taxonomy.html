@@ -1,0 +1,12 @@
+{{ define "intro__action" }}You're <a href="{{ .RelPermalink }}">seeing posts for one tag</a>.{{ end }}
+
+{{- define "main" -}}
+<h1>Tag - {{ .Title | lower }}</h1>
+<p>Showing all items for tag. <a href="{{ ($.Site.GetPage "/tags").RelPermalink }}">View all tags...</a></p>
+
+<ol class="archive">
+{{ range .Pages }}
+  {{ .Render "li" }}
+{{ end }}
+</ol>
+{{- end -}}
