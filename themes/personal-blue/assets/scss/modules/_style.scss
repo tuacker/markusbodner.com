@@ -81,9 +81,24 @@ body {
     grid-template-columns: repeat(5, 1fr);
   }
 
+
   // Fixes extra "gap" due to img being nested in <a>
-  .gallery__preview { display: inline-block; }
-  .gallery__preview img { display: block; }
+  .gallery__preview { display: block; overflow: hidden; }
+  .gallery__preview img {
+    display: block;
+
+    -webkit-transition: all $default-transition-time;
+       -moz-transition: all $default-transition-time;
+            transition: all $default-transition-time;
+  }
+
+  .gallery__preview img:hover {
+    -webkit-transform:scale(1.03);
+       -moz-transform:scale(1.03);
+        -ms-transform:scale(1.03);
+         -o-transform:scale(1.03);
+            transform:scale(1.03);
+  }
 
   .gallery__more {
     justify-self: center;
