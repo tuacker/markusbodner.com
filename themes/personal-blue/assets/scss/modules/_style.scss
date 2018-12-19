@@ -44,7 +44,7 @@ body {
     font-weight: 900;
   }
 
-  .post__date {
+  .post__info {
     color: $text-color-light;
     white-space: nowrap;
   }
@@ -61,6 +61,7 @@ body {
 
   &.post--quote {
     .post__permalink { display: none; }
+
     &:hover > .post__permalink { display: inline-block; }
 
     .post__quote-link { text-decoration: underline; }

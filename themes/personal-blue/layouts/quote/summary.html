@@ -1,6 +1,6 @@
 <article class="post post--quote">
   {{ $title := .Title }}
-  {{ with .Params.link }}<a href="{{ . }}" class="post__quote-link">{{$title}}</a>{{ else }}{{ $title }}{{ end }}
+  {{ with .Params.link }}<a href="{{ . }}" class="post__quote-link">{{$title}}</a>{{ else }}{{ $title }}{{ end }} <a href="{{ .RelPermalink}}" class="post__permalink">⚓︎</a>
 
   {{ .Content }}
 </article>
