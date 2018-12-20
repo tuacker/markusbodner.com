@@ -18,4 +18,21 @@
 
   {{ .Content }}
 </article>
+
+<aside class="related">
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+  {{ with $related }}
+  <h3>See Also</h3>
+  <ul class="related__list">
+  {{ range . }}
+    <li class="related__preview">
+      <a href="{{ .RelPermalink }}">
+        <div class="related__image" style="background-image: url({{ (index (.Params.images) 0) }})"></div>
+        <p>{{ .Title }}</p>
+      </a>
+    </li>
+  {{ end }}
+  </ul>
+  {{ end }}
+</aside>
 {{- end -}}
