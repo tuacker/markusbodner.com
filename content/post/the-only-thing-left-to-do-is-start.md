@@ -1,7 +1,7 @@
 +++
 date = "2015-05-05T11:18:49+02:00"
 draft = false
-tags = ["Life", "Maker"]
+tags = ["Personal"]
 title = "The only thing left to do is start"
 images = ["/images/mikito-tateisi-333584-unsplash.jpg"]
 +++
