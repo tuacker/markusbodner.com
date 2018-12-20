@@ -3,7 +3,7 @@
     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <description>{{- .Description -}}</description>
     <link>{{ .Permalink }}</link>
-    <image><url>{{ .Site.BaseURL}}favicon.png</url><title>{{ .Site.Title }}</title><link>{{ .Site.BaseURL }}</link></image>
+    <image><url>{{ absURL "favicon.png" }}</url><title>{{ .Site.Title }}</title><link>{{ .Site.BaseURL }}</link></image>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Copyright }}
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
