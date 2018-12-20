@@ -8,6 +8,7 @@ body {
   &:hover { color: $blue-darker; }
 }
 
+// Intro ***********************************************************************
 .intro {
   font-size: 1.2rem;
   font-weight: 900;
@@ -31,6 +32,7 @@ body {
   }
 }
 
+// Post ************************************************************************
 .post {
   margin-bottom: 3rem;
 
@@ -68,6 +70,7 @@ body {
   }
 }
 
+// Related *********************************************************************
 .related {
   .related__list {
     display: grid;
@@ -103,6 +106,7 @@ body {
     }
 }
 
+// Gallery *********************************************************************
 .gallery {
   display: grid;
 
@@ -143,10 +147,12 @@ body {
   }
 }
 
+// Footer **********************************************************************
 .footer {
   color: $text-color-light;
 }
 
+// Archive *********************************************************************
 .archive {
   margin: 0;
   padding: 0;
@@ -157,3 +163,12 @@ body {
     font-family: $font-family-monospace;
   }
 }
+
+// Code ************************************************************************
+// Inline codeblocks not covered by monokai
+ code {
+  background-color: $shadow-color;
+  border-radius: $border-radius;
+  padding: 4px;
+
+ }
