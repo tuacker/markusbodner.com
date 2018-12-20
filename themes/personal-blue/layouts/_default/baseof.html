@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}" />
+  {{ with .Site.Params.googleSiteVerification }}<meta name="google-site-verification" content="{{ . }}" />{{ end }}
 
   {{ partial "_og.html" . }}
   {{ partial "_twitter_card.html" . }}
