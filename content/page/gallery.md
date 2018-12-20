@@ -5,4 +5,6 @@ date: 2018-12-16T09:58:59+01:00
 images: ["/gallery/IMG_0912.jpeg"]
 introAction: "looking at my pictures"
 layout: gallery
+sitemap:
+  priority: 0.8
 ---
