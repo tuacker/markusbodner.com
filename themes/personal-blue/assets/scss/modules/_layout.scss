@@ -9,7 +9,7 @@ img {
 }
 
 // Base layout (mobile/no css grid support) ************************************
-.main-nav, .intro, .content, .newsletter, .footer {
+.main-nav, .intro, .content, .newsletter-embed, .footer {
   width: 100%;
   max-width: 45rem;
 
@@ -27,7 +27,7 @@ img {
   .intro { grid-area: intro; }
   .content { grid-area: content; }
   .content { grid-area: content; }
-  .newsletter { grid-area: newsletter; }
+  .newsletter-embed { grid-area: newsletter; }
   .footer { grid-area: footer; }
 
   body {

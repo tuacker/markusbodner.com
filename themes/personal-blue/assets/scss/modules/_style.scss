@@ -87,10 +87,7 @@ body {
   .related__preview {
     text-align: center;
 
-    border-radius: $border-radius;
-    background-color: #fff;
-
-    box-shadow: 0 4px 6px $shadow-color, 0 1px 3px $shadow-color;
+    @extend %sheet;
 
     p {
       margin: 0.5rem;
@@ -144,6 +141,45 @@ body {
   .gallery__more {
     justify-self: center;
     align-self: center;
+  }
+}
+
+// Newsletter ******************************************************************
+.newsletter-embed {
+  padding: 0 1.5rem 3rem 1.5rem;
+
+  text-align: center;
+
+  background-color: $blue-light;
+  border-radius: $border-radius;
+
+  .newsletter-embed__form {
+    display: grid;
+
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .newsletter-embed__input {
+    padding: 0.4rem;
+
+    font-size: 0.8rem;
+
+    -webkit-appearance: none;
+        -ms-appearance: none;
+            appearance: none;
+
+
+    background-color: $white;
+    border: 1px solid $blue;
+    border-radius: $border-radius;
+  }
+
+  @media screen and (max-width: 560px) {
+    .newsletter-embed__form {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, 1fr);
+    }
   }
 }
 
