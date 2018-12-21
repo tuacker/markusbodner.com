@@ -67,6 +67,21 @@ disableKinds = ["section"]
 [blackfriday]
   plainIDAnchors = true
 
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    simple = true
+  [privacy.twitter]
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    simple = false
+  [privacy.youtube]
+    privacyEnhanced = true
+
 
 # Custom params
 [params]
