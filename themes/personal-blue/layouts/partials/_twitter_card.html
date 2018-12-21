@@ -1,0 +1,25 @@
+{{- with $.Params.images -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ index . 0 | absURL }}"/>
+{{- else -}}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch "*feature*" -}}
+{{- $featured := cond (ne $featured nil) $featured ($images.GetMatch "{*cover*,*thumbnail*}") -}}
+{{- with $featured -}}
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="{{ $featured.Permalink }}"/>
+{{- else -}}
+{{- with $author_name := .Site.Params.author.name -}}
+{{- $author_image := resources.Get (printf "%s/%s.jpg" "images" (replace $author_name " " "_" | lower)) -}}
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="{{ $author_image.Permalink }}"/>
+{{- else -}}
+<meta name="twitter:card" content="summary"/>
+{{- end -}}
+{{- end -}}
+{{- end }}
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify }}{{ else }}{{ with .Site.Params.description }}{{ . | plainify }}{{ end }}{{ end }}{{ end -}}"/>
+{{ with .Site.Params.author.twitter -}}
+<meta name="twitter:creator" content="@{{ . }}"/>
+{{ end -}}

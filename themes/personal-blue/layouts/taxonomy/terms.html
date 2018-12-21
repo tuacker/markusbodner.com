@@ -1,0 +1,18 @@
+{{ define "intro__action" }}You're <a href="{{ .RelPermalink }}">browsing tags</a>.{{ end }}
+
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+<p>Select a tag to view associated posts. <a href="{{ relref . "/page/archive.md" }}">Browse by date...</a></p>
+
+<ul class="archive">
+    {{ $type := .Type }}
+    {{ range $key, $value := .Data.Terms.Alphabetical }}
+        {{ $name := .Name }}
+        {{ $count := .Count }}
+        {{ with $.Site.GetPage (printf "/%s/%s" $type $name) }}
+          <li><span class="archive__date">{{ $count }} -</span> <a href="{{ .Permalink }}">{{ $name }}</a></li>
+        {{ end }}
+    {{ end }}
+</ul>
+
+{{- end -}}

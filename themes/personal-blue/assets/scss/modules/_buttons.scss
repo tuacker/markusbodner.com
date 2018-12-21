@@ -1,0 +1,15 @@
+// Buttons
+
+.button {
+  @extend %button;
+}
+
+// Buttons
+.button.button--primary {
+  color: $white;
+  background-color: $primary;
+}
+
+.button.button--primary:hover {
+  background-color: $primary-light;
+}

@@ -1,0 +1,31 @@
+// Typography
+
+html {
+  font-family: $font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $text-color;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 0.25rem 0;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  line-height: 1;
+}
+
+h1 { font-size: 2.0736rem; }
+h2 { font-size: 1.728rem; }
+h3 { font-size: 1.44rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1rem; }
+
+p { margin: 0 0 1rem 0; }
+
+code {
+  white-space: pre-wrap;
+  font-size: 0.8rem;
+}

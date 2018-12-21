@@ -1,0 +1,68 @@
+// Layout
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+// Base layout (mobile/no css grid support) ************************************
+.main-nav, .intro, .content, .newsletter-embed, .footer {
+  width: 100%;
+  max-width: 45rem;
+
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.main-nav { padding-top: 1rem; }
+.footer { padding-bottom: 1rem; }
+
+// Grid layout for supported browsers ******************************************
+@supports (display: grid) {
+  .main-nav { grid-area: nav; }
+  .intro { grid-area: intro; }
+  .content { grid-area: content; }
+  .content { grid-area: content; }
+  .newsletter-embed { grid-area: newsletter; }
+  .footer { grid-area: footer; }
+
+  body {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-areas:
+      "nav"
+      "intro"
+      "content"
+      "newsletter"
+      "footer";
+
+    justify-items: center;
+  }
+
+  @media screen and (min-width: 1130px) {
+    html { height: 100%; }
+
+    body {
+      min-height: 100%;
+
+      grid-gap: 3rem;
+      grid-template-columns: minmax(16rem, 1fr) 20rem 20rem 1fr;
+      grid-template-rows: auto 1fr auto auto;
+      grid-template-areas:
+        "..... nav        nav .........."
+        "intro content    content ......"
+        "..... newsletter newsletter ..."
+        "..... footer     footer .......";
+    }
+
+    .intro {
+      max-width: 18rem;
+    }
+  }
+}
