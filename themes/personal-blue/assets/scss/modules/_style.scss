@@ -209,9 +209,12 @@ body {
 
 // Code ************************************************************************
 // Inline codeblocks not covered by monokai
- code {
+code {
   background-color: $shadow-color;
   border-radius: $border-radius;
   padding: 4px;
+}
 
- }
+.highlight {
+  padding-bottom: 1rem;
+}

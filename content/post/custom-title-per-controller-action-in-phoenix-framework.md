@@ -5,67 +5,66 @@ tags = ["Phoenix Framework", "Elixir"]
 title = "Custom titles per view or controller actions in Phoenix Framework"
 images = ["/images/nick-fewings-642060-unsplash.jpg"]
 +++
+Phoenix offers the `render_existing/3` function, which tries to render the template for the provided module, or returns `nil` if the template doesn't exist. We can use this to create custom titles or even JavaScript includes on a per-view basis.<!--more-->
 
-The simplest option would be to pass the page title along with the render call in your controller action. For example you could do <code>render(conn, "new.html", page_title: "New Resource")</code>. Then, in your app layout template <code>app.html.eex</code>, access it with <code>\<title\><%= @page_title %>\</title></code>.<!--more-->
-
-The problem with this approach is that you have to provide the page_title for every controller action. In addition setting the page title should probably be done by the view and not the controller. Here is how you'd do that.
-
-Start out by adding phoenix controller's <code>action_name/1</code> to the imported helpers for our view in web.ex. action_name/1 returns the action as atom that is being performed for the current conn (:new, :create, :update, ...).
+In your existing phoenix project open up your `MyApp.LayoutView` usually located in `views/layout_view.ex` and add the following.
 
 ```elixir
-# web/web.ex
-def view do
-  # Import convenience functions from controllers
-  import Phoenix.Controller, only: [get_csrf_token: 0, get_flash: 2, view_module: 1, action_name: 1]
-  ...
-end
-```
+# views/layout_view.ex
 
-Next up create a <code>title/2</code> function in our <code>LayoutView</code> module. This function will try and ask the view module being rendered for its title or return a default title instead.
-
-```elixir
-# web/views/layout_view.ex
 @doc """
-Calls the `title` fun of the current `view_module` with the performed `:action` as arg.
-If no fun exists/matches the `default` title is returned instead.
+Returns the string of the title for the provided module and template.
+It does so by calling render_existing/3 on the `view_module`. The `view module`
+is concatenated with "title." to get the template.
+
+So if the `view_template` is `show.html` then this will call
+`title.show.html` on the provided `view_module`.
+
+If `render_existing/3` doesn't produce any results `default` is used instead.
 """
-def title(conn, default) do
-  try do
-    apply(view_module(conn), :title, [action_name(conn)])
-  rescue
-    _ -> default
-  end
+def title(view_module, view_template, assigns, default \\ "Your Default Title") do
+  render_existing(view_module, "title." <> view_template, assigns) || default
 end
 ```
 
-Using <code>view_module(conn)</code> we fetch the module of the view which is being rendered, for example the UserView. <code>apply/3</code> will try to call the function <code>:title</code> inside that module with the action name as argument.
-
-If that view does not implement <code>title/1</code> a <code>UndefinedFunctionError</code> error is thrown. We don't really care about the kind of the error so in our rescue block we just return the default title instead.
-
-
-Now it is time to implement the <code>title/1</code> function in all views we want to specify a custom title for. In this example I assume you have a user model with matching user controller and a user view.
+Now open the view module of any of your controller actions, for example the `session_view.ex`. Lets say you want the title for your login action to read "Log in to MyApp".
 
 ```elixir
-# web/views/user_view.ex
-def title(:index), do: "List all users"
-def title(:new),   do: "Create a new user"
-def title(:show),  do: "Show a single user"
-def title(_),      do: "Users"
+# views/session_view.ex
+def render("title.new.html", _), do: "Log in to MyApp"
 ```
 
- We use elixir's pattern matching to specify a custom title for every controller action. If you only need one title for all actions simply use <code>def title(_)</code>, which will always match.
+Here the `new` maps to the current view template `new`, it could also be `show` or any other value.
 
- That's it. Open the layout template at <code>web/templates/layout/app.html.eex</code> and add the call to <code>title/2</code>.
+Finally, open up your main layout, usually `templates/layout/app.html.eex` and add the following to the `<head>`
 
-```html
-# web/templates/layout/app.html.eex
-<head>
-  ...
-  <title><%= title @conn, "My Default Title" %></title>
-  ...
-</head>
+```elixir
+  # templates/layout/app.html.eex
+  <title><%= title @view_module, @view_template, assigns %></title>
 ```
 
-Now <code>title @conn, "My Default Title"</code> will call <code>title/2</code> defined in our <code>web/views/layout_view.ex</code>, which in turn via <code>apply/3</code> calls the <code>title/1</code> function of the current view module that is being rendered. If no function matches or none is found "My Default Title" is used instead.
+The above line will call the `title/3` function in your `layout_view.ex` defined at the beginning of this post, which will turn use `render_existing/3` on the current view module (in our example the `session_view.ex`) for the template `title.new.html`.
+
+For any page you don't define a `title.<action>.html` the call will just silently fail and return the default value instead.
+
+You can even use this to include custom JavaScript on select pages. Just create another function in your layout view and repeat the process of adding a `render` function to your view, and update the layout to call the function.
+
+I heavily use this for custom titles, breadcrumbs and meta tags. Here is how my `layout_view.ex` looks.
+
+```elixir
+def title(view_module, view_template, assigns, default \\ "Ads From Source") do
+  render_existing(view_module, "title." <> view_template, assigns) || default
+end
+
+def breadcrumbs(view_module, view_template, assigns) do
+  render_existing(view_module, "crumbs." <> view_template, assigns)
+end
+
+def meta_descriptors(view_module, view_template, assigns) do
+  render_existing(view_module, "meta." <> view_template, assigns)
+end
+```
+
+*This post was updated on 22. December 2018 to use a better approach using `render_existing/3`.*
 
 ![assorted-title book lot placed on white wooden shelf](/images/nick-fewings-642060-unsplash.jpg)
