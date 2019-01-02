@@ -62,10 +62,11 @@ body {
     .post__header { text-align: inherit; margin-bottom: 0; }
 
     .post__title {
+      display: inline;
       margin: 0;
+      margin-right: 0.4rem;
       font-weight: bold;
       font-size: 1.2rem;
-      display: inline;
     }
   }
 
