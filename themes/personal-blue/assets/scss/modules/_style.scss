@@ -121,11 +121,6 @@ body {
 
   margin-bottom: 3rem;
 
-  &.gallery--inline {
-    grid-template-columns: repeat(5, 1fr);
-  }
-
-
   // Fixes extra "gap" due to img being nested in <a>
   .gallery__preview { display: block; overflow: hidden; }
   .gallery__preview img {
