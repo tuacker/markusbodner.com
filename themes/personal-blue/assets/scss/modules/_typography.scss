@@ -29,3 +29,9 @@ code {
   white-space: pre-wrap;
   font-size: 0.8rem;
 }
+
+blockquote {
+  border-left: 4px solid $primary;
+  padding-left: 1rem;
+  font-style: italic;
+}
