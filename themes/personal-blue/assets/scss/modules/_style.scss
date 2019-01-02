@@ -54,6 +54,10 @@ body {
     white-space: nowrap;
   }
 
+  .post__tag {
+    opacity: 0.8;
+  }
+
   &.post--preview {
     .post__header { text-align: inherit; margin-bottom: 0; }
 
