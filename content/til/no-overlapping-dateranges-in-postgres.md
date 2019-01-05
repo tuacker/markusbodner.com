@@ -1,7 +1,7 @@
 ---
 title: "No overlapping dateranges in Postgres"
 description: ""
-date: 2019-01-05T10:10:07+01:00
+date: 2019-01-02T10:10:07+01:00
 tags: ["Postgres", "TIL"]
 draft: false
 images: ["/images/til-no-overlapping-dateranges-in-postgres.png"]
