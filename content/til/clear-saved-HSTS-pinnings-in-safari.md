@@ -2,8 +2,8 @@
 title: "Clear saved HSTS pinnings in Safari and macOS"
 description: ""
 date: 2019-01-02T10:43:17+01:00
-tags: ["Web Development", "macos"]
-images: ["/images/clear-saved-hsts-pinnings-in-safari-and-macos.png"]
+tags: ["Web Development", "macos", "TIL"]
+images: ["/images/delfi-de-la-rua-152121-unsplash.jpg"]
 draft: false
 ---
 So today I was trying to get SSL working on my machine with localhost. In the process I set the HSTS headers, telling the browser to never access the non-secure `http://` version of localhost. Thus going to `http://localhost:4000` would always fail as HSTS tells the browser to only access `https://`.<!--more-->
@@ -22,3 +22,5 @@ launchctl start /System/Library/LaunchAgents/com.apple.nsurlstoraged.plist
 ```
 
 You may have to restart Safari afterwards.
+
+![selective focus photography of pins](/images/delfi-de-la-rua-152121-unsplash.jpg)

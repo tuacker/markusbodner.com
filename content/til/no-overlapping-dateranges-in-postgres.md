@@ -4,7 +4,7 @@ description: ""
 date: 2019-01-02T10:10:07+01:00
 tags: ["Postgres", "TIL"]
 draft: false
-images: ["/images/til-no-overlapping-dateranges-in-postgres.png"]
+images: ["/images/eric-rothermel-23788-unsplash.jpg"]
 ---
 Lets say we have several rooms, and every room has reservations. We do not want the reservations to overlap, ever. Here's how we add that check to a table in PostgreSQL.<!--more-->
 
@@ -51,3 +51,5 @@ execute("CREATE EXTENSION IF NOT EXISTS btree_gist", "DROP EXTENSION IF EXISTS b
 # Create the constraint (with the name :cannot_overlap)
 create(constraint(:reservations, :cannot_overlap, exclude: ~s|gist ("room" WITH =, daterange("start_date", "end_date", '[]') WITH &&)|))
 ```
+
+![planner lying on table showing a calendar](/images/eric-rothermel-23788-unsplash.jpg)
