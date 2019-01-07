@@ -59,7 +59,7 @@ body {
   }
 
   &.post--preview {
-    .post__header { text-align: inherit; margin-bottom: 0; }
+    .post__header { text-align: inherit; margin-bottom: 0.3rem; }
 
     .post__title {
       display: inline;
@@ -211,7 +211,7 @@ body {
 // Code ************************************************************************
 // Inline codeblocks not covered by monokai
 code {
-  background-color: $shadow-color;
+  background-color: rgba(0,0,0,.03);
   border-radius: $border-radius;
   padding: 4px;
 }
