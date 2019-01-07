@@ -59,13 +59,17 @@ body {
   }
 
   &.post--preview {
-    .post__header { text-align: inherit; margin-bottom: 0.3rem; }
+    display: flex;
+    margin-bottom: 1.5rem;
+    align-items: baseline;
+
+    .post__info {
+      margin-right: 1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
 
     .post__title {
-      display: inline;
-      margin: 0;
-      margin-right: 0.4rem;
-      font-weight: bold;
       font-size: 1.2rem;
     }
   }

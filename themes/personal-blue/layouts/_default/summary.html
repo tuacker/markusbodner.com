@@ -1,8 +1,9 @@
 <article class="post post--preview">
-  <header class="post__header">
-    <h2 class="post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-    <span class="post__info"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time></span>
-  </header>
+  <div class="post__info"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02" }}</time></div>
 
-  {{ .Summary }}
+  <div>
+    <h2 class="post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ .Summary }}
+  </div>
+
 </article>
