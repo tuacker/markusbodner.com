@@ -13,12 +13,14 @@ a {
 }
 
 // Unset for some other links in the UI
-.nav__item, .nav__item:hover { border-bottom: none; }
-.post__title a { border-bottom: none; }
-.post__tag { border-bottom: none; }
-.gallery__preview { border-bottom: none; }
-.related__list a { border-bottom: none; }
-.intro__image-link { border-bottom: none; }
+.nav__item, .nav__item:hover,
+.post__title a,
+.post__tag,
+.gallery__preview, .gallery__preview:hover,
+.related__list a,
+.intro__image-link {
+  border-bottom: none;
+}
 
 // Reset it for the preview where we do want it
 .post--preview .post__title a {
