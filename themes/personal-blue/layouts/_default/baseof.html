@@ -33,10 +33,10 @@
     {{ with $author_name := .Site.Params.author.name }}
     {{ $author_image := resources.Get (printf "%s/%s.jpg" "images" (replace $author_name " " "_" | lower)) }}
     {{ $author_image := $author_image.Fit "144x144" }}
-    <a href="{{ $.Site.BaseURL }}" title="Markus Bodner"><img src="{{ $author_image.RelPermalink }}" alt="Picture of {{ $author_name }}" class="intro__image"></a>
+    <a href="{{ $.Site.BaseURL }}" class="intro__image-link" title="Markus Bodner"><img src="{{ $author_image.RelPermalink }}" alt="Picture of {{ $author_name }}" class="intro__image"></a>
     {{ end }}
 
-    <p>Hi, I'm <a href="https://twitter.com/{{ .Site.Params.author.twitter }}" target="_blank" rel="noreferrer">Markus</a>.  Founder of <a href="https://www.adsfromsource.com" target="_blank" rel="noopener">Ads From Source</a>. <span class="intro__action">{{- block "intro__action" . -}}Welcome!{{- end -}}</span></p>
+    <p>Hi, I'm <a href="https://twitter.com/{{ .Site.Params.author.twitter }}" target="_blank" rel="noreferrer">Markus</a>. Founder of <a href="https://www.newsletty.com" target="_blank" rel="noopener">Newsletty</a>. <span class="intro__action">{{- block "intro__action" . -}}Welcome!{{- end -}}</span></p>
   </aside>
 
   <main class="content">

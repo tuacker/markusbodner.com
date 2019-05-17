@@ -4,7 +4,27 @@ a {
   text-decoration: none;
   color: $primary;
 
+  border-bottom: 2px solid $primary;
+
   &:hover {
     color: $primary-light;
+    border-bottom: 2px solid $primary-light;
+  }
+}
+
+// Unset for some other links in the UI
+.nav__item, .nav__item:hover { border-bottom: none; }
+.post__title a { border-bottom: none; }
+.post__tag { border-bottom: none; }
+.gallery__preview { border-bottom: none; }
+.related__list a { border-bottom: none; }
+.intro__image-link { border-bottom: none; }
+
+// Reset it for the preview where we do want it
+.post--preview .post__title a {
+  border-bottom: 2px solid $primary;
+
+  &:hover {
+    border-bottom: 2px solid $primary-light;
   }
 }
