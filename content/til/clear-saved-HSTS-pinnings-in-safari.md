@@ -2,7 +2,7 @@
 title: "Clear saved HSTS pinnings in Safari and macOS"
 description: ""
 date: 2019-01-02T10:43:17+01:00
-tags: ["Web Development", "macos", "TIL"]
+tags: ["web-development", "macos", "TIL"]
 images: ["/images/delfi-de-la-rua-152121-unsplash.jpg"]
 draft: false
 ---

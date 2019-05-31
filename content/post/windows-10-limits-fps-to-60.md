@@ -1,7 +1,7 @@
 +++
 date = "2015-07-26T12:55:02+02:00"
 draft = false
-tags = ["Games", "Windows 10"]
+tags = ["Games", "windows-10"]
 title = "How to fix Windows 10's 60 FPS limit and Input Lag"
 images = ["/images/ugur-akdemir-238673-unsplash.jpg"]
 +++
