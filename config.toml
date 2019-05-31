@@ -11,7 +11,6 @@ theme = "personal-blue"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
-pygmentsOptions = "linenos=table"
 
 canonifyURLs = true
 
