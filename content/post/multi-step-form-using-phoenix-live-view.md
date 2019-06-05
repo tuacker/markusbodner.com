@@ -2,7 +2,7 @@
 title: "Multi-Step Form using Phoenix Live View"
 description: "Implementing a multi-step form using Phoenix Live view without having to write any JavaScript"
 date: 2019-05-31T08:25:51+02:00
-tags: ["phoenix-framework",  "live-view", "Elixir", "TIL"]
+tags: ["phoenix-framework", "live-view", "Elixir", "TIL", "Newsletty"]
 images: ["/images/form_live_view_steps_test_code_length.png"]
 draft: false
 ---
