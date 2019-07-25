@@ -8,7 +8,7 @@
   {{ $photos := (($.Site.GetPage "/gallery").Resources.ByType "image") }}
   {{ $photos := sort $photos "Name" "desc" }}
   {{ range $photos }}
-    <a href="{{ .RelPermalink }}" target="_blank" class="gallery__preview"><img src="{{ .RelPermalink }}" alt=""></a>
+    <a href="{{ .RelPermalink }}" target="_blank" class="gallery__preview"><img src="{{ (.Resize "1476x").RelPermalink }}" alt=""></a>
   {{ end }}
 </div>
 {{- end -}}
