@@ -1,5 +1,5 @@
 {{- define "main" -}}
-{{ range $index, $element := first 10 (where .Pages "Section" "in" .Site.Params.mainSections) }}
+{{ range $index, $element := first 10 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
   {{ $element.Render "summary"}}
 
 {{ end }}
