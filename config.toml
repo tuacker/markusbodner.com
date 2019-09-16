@@ -47,11 +47,11 @@ disableKinds = ["section"]
   identifier = "gallery"
   url = "/gallery/"
 
-[[menu.main]]
-  name = "Newsletter"
-  weight = 4
-  identifier = "newsletter"
-  url = "/newsletter/"
+# [[menu.main]]
+#   name = "Newsletter"
+#   weight = 4
+#   identifier = "newsletter"
+#   url = "/newsletter/"
 
 [related]
   threshold = 80
