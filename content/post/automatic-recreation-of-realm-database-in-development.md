@@ -1,7 +1,7 @@
 +++
 date = "2017-05-18T14:23:03+02:00"
 draft = false
-tags = ["iOS", "Swift", "XCode", "Realm"]
+tags = ["iOS", "Swift", "XCode", "Realm", "Programming"]
 title = "Automatic recreation of Realm DB during development"
 images = ["/images/max-nelson-492729-unsplash.jpg"]
 +++

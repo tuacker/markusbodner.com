@@ -1,7 +1,7 @@
 +++
 date = "2017-06-20T13:48:09+02:00"
 draft = false
-tags = ["Swift", "iOS", "XCode"]
+tags = ["Swift", "iOS", "XCode", "Programming"]
 title = "How to verify and limit decimal number inputs in iOS with Swift"
 images = ["/images/ludovic-charlet-544834-unsplash.jpg"]
 +++

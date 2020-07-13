@@ -1,7 +1,7 @@
 +++
 date = "2016-03-27T12:46:38+02:00"
 draft = false
-tags = ["phoenix-framework", "Elixir"]
+tags = ["phoenix-framework", "Elixir", "Programming"]
 title = "Custom titles per view or controller actions in Phoenix Framework"
 images = ["/images/nick-fewings-642060-unsplash.jpg"]
 +++

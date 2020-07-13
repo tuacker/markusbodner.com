@@ -1,7 +1,7 @@
 +++
 title = "Sending plain text and HTML emails using EEx and Swoosh in Phoenix & Elixir"
 draft = false
-tags = ["Elixir"]
+tags = ["Elixir", "Programming"]
 date = "2017-03-22T12:25:17+01:00"
 images = ["/images/flavio-amiel-537773-unsplash.jpg"]
 +++

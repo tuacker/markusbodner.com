@@ -1,7 +1,7 @@
 +++
 title = "Fix large navigation bar title not hiding on scroll in iOS 11"
 date = 2017-10-08T09:53:44+02:00
-tags = ["Swift", "iOS", "XCode"]
+tags = ["Swift", "iOS", "XCode", "Programming"]
 images = ["/images/alexander-andrews-636454-unsplash.jpg"]
 +++
 
