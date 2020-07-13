@@ -9,6 +9,8 @@ draft: false
 One thing I have in mind while building out [Newsletty](https://www.newsletty.com) is a multi-step form for a specific flow. I thought the upcoming [Live View](https://github.com/phoenixframework/phoenix_live_view/) would be a perfect fit for that. What you see in the following clip I achieved without having to write any JavaScript myself.
 <!--more-->
 
+**Note: This post was written for one of the first versions of LiveView. A lot has changed by now and this example won't work as-is. The general concepts should remain the same though.** I hope to update this tutorial at some point.
+
 ![Video showing the multi-step flow](/videos/form_live_view_steps_test.mp4)
 
 ## Implementation
