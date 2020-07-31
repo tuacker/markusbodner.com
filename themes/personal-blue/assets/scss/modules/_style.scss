@@ -124,64 +124,11 @@ body {
 .gallery {
   display: grid;
 
-  grid-gap: 3rem;
-  grid-template-columns: 640px;
-  justify-content: center;
+  grid-gap: 1px;
+  grid-template-columns: repeat(3, auto);
 
-  // Fixes extra "gap" due to img being nested in <a>
-  .gallery__preview { display: block; overflow: hidden; }
-  .gallery__preview img {
-    -webkit-transition: all $default-transition-time;
-       -moz-transition: all $default-transition-time;
-            transition: all $default-transition-time;
-  }
-
-  .gallery__preview img:hover {
-    -webkit-transform: scale(1.01);
-       -moz-transform: scale(1.01);
-        -ms-transform: scale(1.01);
-         -o-transform: scale(1.01);
-            transform: scale(1.01);
-  }
-}
-
-// Newsletter ******************************************************************
-.newsletter-embed {
-  padding: 0 1.5rem 3rem 1.5rem;
-
-  text-align: center;
-
-  background-color: $blue-light;
-  border-radius: $border-radius;
-
-  .newsletter-embed__form {
-    display: grid;
-
-    grid-gap: 0.5rem;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .newsletter-embed__input {
-    padding: 0.4rem;
-
-    font-size: 0.8rem;
-
-    -webkit-appearance: none;
-        -ms-appearance: none;
-            appearance: none;
-
-
-    background-color: $white;
-    border: 1px solid $blue;
-    border-radius: $border-radius;
-  }
-
-  @media screen and (max-width: 560px) {
-    .newsletter-embed__form {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, 1fr);
-    }
-  }
+  .gallery__preview { display: block; line-height: 0; }
+  .gallery__preview img:hover { opacity: 0.9; }
 }
 
 // Footer **********************************************************************
