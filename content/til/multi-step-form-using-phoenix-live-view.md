@@ -2,11 +2,11 @@
 title: "Multi-Step Form using Phoenix Live View"
 description: "Implementing a multi-step form using Phoenix Live view without having to write any JavaScript"
 date: 2019-05-31T08:25:51+02:00
-tags: ["phoenix-framework", "live-view", "Elixir", "TIL", "Newsletty", "Programming"]
+tags: ["phoenix-framework", "live-view", "Elixir", "TIL", "Programming"]
 images: ["/images/form_live_view_steps_test_code_length.png"]
 draft: false
 ---
-One thing I have in mind while building out [Newsletty](https://www.newsletty.com) is a multi-step form for a specific flow. I thought the upcoming [Live View](https://github.com/phoenixframework/phoenix_live_view/) would be a perfect fit for that. What you see in the following clip I achieved without having to write any JavaScript myself.
+One thing I needed recently is a multi-step form for a specific flow. I thought the upcoming [Live View](https://github.com/phoenixframework/phoenix_live_view/) would be a perfect fit for that. What you see in the following clip I achieved without having to write any JavaScript myself.
 <!--more-->
 
 **Note: This post was written for one of the first versions of LiveView. A lot has changed by now and this example won't work as-is. The general concepts should remain the same though.** I hope to update this tutorial at some point.

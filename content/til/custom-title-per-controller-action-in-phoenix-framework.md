@@ -52,7 +52,7 @@ You can even use this to include custom JavaScript on select pages. Just create 
 I heavily use this for custom titles, breadcrumbs and meta tags. Here is how my `layout_view.ex` looks.
 
 ```elixir
-def title(view_module, view_template, assigns, default \\ "Ads From Source") do
+def title(view_module, view_template, assigns, default \\ "My Default Title") do
   render_existing(view_module, "title." <> view_template, assigns) || default
 end
 
