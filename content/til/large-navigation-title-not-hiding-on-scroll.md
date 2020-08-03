@@ -32,4 +32,4 @@ To fix this issue drag and drop the ```tableView``` on top of every other view.
 
 If you are creating the layout via code you most likely need to make sure your ```tableView``` is the first element in the main view's ```subviews``` array.
 
-![black and gray compass on top of map](/images/alexander-andrews-636454-unsplash.jpg)
+![black and gray compass on top of a paper-map](/images/alexander-andrews-636454-unsplash.jpg)

@@ -18,4 +18,4 @@ All in all I think I spent a good 3 hours looking at various StackOverflow answe
 
 This is a mistake I keep making. Lets hope by writing it down my brain learns to flag this behavior and alerts me the next time I am doing this.
 
-![Image of a closed off road with multiple signs reading road closed, wrong way, and detour](/images/jamie-street-dQLgop4tnsc-unsplash.jpg)
+![a closed off road with multiple signs reading road closed, wrong way, and detour](/images/jamie-street-dQLgop4tnsc-unsplash.jpg)

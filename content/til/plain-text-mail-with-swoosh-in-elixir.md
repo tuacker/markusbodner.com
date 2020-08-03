@@ -77,4 +77,4 @@ We're calling `render_body/2` twice, Swoosh looks at the template extension (htm
 Have fun sending emails!
 
 
-![brown Lettere signage on teal trwall](/images/flavio-amiel-537773-unsplash.jpg)
+![brown signage reading Lettere on teal wall](/images/flavio-amiel-537773-unsplash.jpg)

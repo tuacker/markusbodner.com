@@ -52,4 +52,4 @@ execute("CREATE EXTENSION IF NOT EXISTS btree_gist", "DROP EXTENSION IF EXISTS b
 create(constraint(:reservations, :cannot_overlap, exclude: ~s|gist ("room" WITH =, daterange("start_date", "end_date", '[]') WITH &&)|))
 ```
 
-![planner lying on table showing a calendar](/images/eric-rothermel-23788-unsplash.jpg)
+![notebook-planner lying on table showing a calendar](/images/eric-rothermel-23788-unsplash.jpg)

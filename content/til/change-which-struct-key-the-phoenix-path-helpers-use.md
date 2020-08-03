@@ -25,4 +25,4 @@ end
 
 The `@derive {Phoenix.Param, key: :identifier}` instructs the path helpers to use the `:identifier` key. Now the path above would turn into `/properties/that_identifier` instead.
 
-![areal photograph of mountain path splitting into two paths](/images/tamara-menzi-275952-unsplash.jpg)
+![areal photograph of a mountain road splitting into two separate roads leading up and down hill](/images/tamara-menzi-275952-unsplash.jpg)
