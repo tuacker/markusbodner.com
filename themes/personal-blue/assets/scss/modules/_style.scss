@@ -67,11 +67,18 @@ body {
       font-weight: bold;
       font-variant: small-caps;
     }
-
     .post__title {
       font-size: 1.2rem;
     }
   }
+
+  @media screen and (max-width: 735px) {
+      &.post--preview {
+        display: block;
+
+        .post__info { margin-bottom: 0.25rem; }
+      }
+    }
 
   &.post--quote {
     .post__permalink { display: none; }
