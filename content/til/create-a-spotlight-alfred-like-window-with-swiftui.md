@@ -75,33 +75,37 @@ class FloatingPanel: NSPanel {
 And thats it. Now you can create a window that floats above all others. For example like this in your `AppDelegate.swift`:
 
 ```swift
-@main
 class AppDelegate: NSObject, NSApplicationDelegate {
 
   var newEntryPanel: FloatingPanel!
 
   func applicationDidFinishLaunching(_ aNotification: Notification) {
-    createFloatingPanel()
+      createFloatingPanel()
 
-    // Center doesn't place it in the absolute center, see the documentation for more details
-    newEntryPanel.center()
+      // Center doesn't place it in the absolute center, see the documentation for more details
+      newEntryPanel.center()
 
-    // Shows the panel and makes it active
-    newEntryPanel.makeKeyAndOrderFront(nil)
+      // Shows the panel and makes it active
+      newEntryPanel.makeKeyAndOrderFront(nil)
+  }
+
+  func applicationWillTerminate(_ aNotification: Notification) {
+      // Insert code here to tear down your application
   }
 
   private func createFloatingPanel() {
-    // Create the SwiftUI view that provides the window contents.
-    // I've opted to ignore top safe area as well, since we're hiding the traffic icons
-    let contentView = ContentView()
-      .edgesIgnoringSafeArea(.top)
+      // Create the SwiftUI view that provides the window contents.
+      // I've opted to ignore top safe area as well, since we're hiding the traffic icons
+      let contentView = ContentView()
+          .edgesIgnoringSafeArea(.top)
 
-    // Create the window and set the content view.
-    floatingPanel = FloatingPanel(contentRect: NSRect(x: 0, y: 0, width: newEntryPanelSize.width, height: newEntryPanelSize.height), backing: .buffered, defer: false)
+      // Create the window and set the content view.
+      newEntryPanel = FloatingPanel(contentRect: NSRect(x: 0, y: 0, width: 512, height: 80), backing: .buffered, defer: false)
 
-    floatingPanel.title = "New blip entry"
-    floatingPanel.contentView = NSHostingView(rootView: contentView)
+      newEntryPanel.title = "Floating Panel Title"
+      newEntryPanel.contentView = NSHostingView(rootView: contentView)
   }
+}
 ```
 
 From here on you can place whatever you want inside it via SwiftUI by editing `ContentView.swift` to your liking.
