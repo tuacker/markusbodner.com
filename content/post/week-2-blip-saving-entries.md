@@ -6,6 +6,7 @@ tags: ["Blip", "Devlog"]
 images: ["/images/blip-week-2-screenshot.png"]
 draft: false
 ---
+
 The second week working on Blip didn't quite start off as I wanted but I managed to turn it all around by the end of the week. Sweet!<!--more-->
 
 [Last week]({{< relref "week-1-blip-getting-started.md" >}}) I said my plan was to implement data persistence using SQLite. Monday until Wednesday I got distracted with making the up/down vote buttons prettier. As well as improve how they work. There is something about finding the correct icon and playing around with the look of something — I can get lost in this process for hours on end.

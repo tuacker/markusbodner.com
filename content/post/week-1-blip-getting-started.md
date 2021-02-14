@@ -6,6 +6,7 @@ tags: ["Blip", "Devlog"]
 images: ["/images/blip-week-1-screenshot.png"]
 draft: false
 ---
+
 Week 1 of working on Blip has been a huge boon to me. I've set out to create the basic "new entry" window. Now I thought that would take me 1-2 days tops. That turned out to be wrong and I've spent the entire week on getting just that done. That was frustrating.<!--more-->
 
 But, with a [new approach]({{< relref "trust.md" >}}) I've managed to get through it. Before I'd throw in the towel and give up. This time I persevered. And that feels **amazing**. Towards Friday last week I ended up getting everything done I've set out to do. With the sole exception of writing this particular post. Thats OK though. I've learned new things. Increased trust in myself, and overall had fun, despite some frustrations. Big win right there for me!

@@ -1,10 +1,10 @@
-+++
-date = "2015-05-05T11:18:49+02:00"
-draft = false
-tags = ["Personal"]
-title = "The only thing left to do is start"
-images = ["/images/mikito-tateisi-333584-unsplash.jpg"]
-+++
+---
+date: "2015-05-05T11:18:49+02:00"
+draft: false
+tags: ["Personal"]
+title: "The only thing left to do is start"
+images: ["/images/mikito-tateisi-333584-unsplash.jpg"]
+---
 
 It is said that shipping is the hardest part, but starting out can be just as daunting. I've been playing with the idea of starting my own company for years. With some money in my bank account I finally took the jump in 2014.<!--more-->
 

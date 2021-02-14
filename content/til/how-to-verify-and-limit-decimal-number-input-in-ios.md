@@ -1,13 +1,12 @@
-+++
-date = "2017-06-20T13:48:09+02:00"
-draft = false
-tags = ["Swift", "iOS", "XCode", "Programming"]
-title = "How to verify and limit decimal number inputs in iOS with Swift"
-images = ["/images/ludovic-charlet-544834-unsplash.jpg"]
-aliases = [
-  "/2017/06/20/how-to-verify-and-limit-decimal-number-inputs-in-ios-with-swift/"
-]
-+++
+---
+date: "2017-06-20T13:48:09+02:00"
+draft: false
+tags: ["Swift", "iOS", "XCode", "Programming"]
+title: "How to verify and limit decimal number inputs in iOS with Swift"
+images: ["/images/ludovic-charlet-544834-unsplash.jpg"]
+aliases:
+  - "/2017/06/20/how-to-verify-and-limit-decimal-number-inputs-in-ios-with-swift/"
+---
 
 Apple only provides UITextField for inputs which always returns a string. You can define a keyboard layout (decimal pad in my case) but that is where support for numeric inputs in iOS ends.<!--more-->
 

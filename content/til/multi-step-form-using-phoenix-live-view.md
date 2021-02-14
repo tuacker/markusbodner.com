@@ -8,6 +8,7 @@ draft: false
 aliases:
   - "/2019/05/31/multi-step-form-using-phoenix-live-view/"
 ---
+
 One thing I needed recently is a multi-step form for a specific flow. I thought the upcoming [Live View](https://github.com/phoenixframework/phoenix_live_view/) would be a perfect fit for that. What you see in the following clip I achieved without having to write any JavaScript myself.
 <!--more-->
 

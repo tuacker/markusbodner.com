@@ -1,10 +1,10 @@
-+++
-date = "2021-02-08T13:11:09+02:00"
-draft = false
-tags = ["Swift", "SwiftUI", "macOS", "XCode", "Programming"]
-title = "Create a Spotlight/Alfred like window on macOS with SwiftUI"
-images = ["/images/floating-panel-final.png"]
-+++
+---
+date: "2021-02-08T13:11:09+02:00"
+draft: false
+tags: ["Swift", "SwiftUI", "macOS", "XCode", "Programming"]
+title: "Create a Spotlight/Alfred like window on macOS with SwiftUI"
+images: ["/images/floating-panel-final.png"]
+---
 
 Let's have a look into how to create a window similar to how Spotlight or Alfred looks.<!--more-->
 

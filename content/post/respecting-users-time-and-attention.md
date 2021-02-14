@@ -1,13 +1,14 @@
-+++
-title = "Respecting our users time and attention"
-date = 2018-02-21T14:46:09+01:00
-tags = ["Health", "General"]
-draft = false
-images = ["/images/stefan-cosma-362616-unsplash.jpg"]
-+++
+---
+title: "Respecting our users time and attention"
+date: 2018-02-21T14:46:09+01:00
+tags: ["Health", "General"]
+draft: false
+images: ["/images/stefan-cosma-362616-unsplash.jpg"]
+---
+
 Over the last decade there has been a rise in everyday tools fighting for our constant attention. Smartphones gaining widespread use have been big enablers of this.<!--more-->
 
-After living with a constant barrage of interruptions for years I'm noticing a change. Friends and people I follow have started to restrict which apps get to show so much as an unread-count badge. 
+After living with a constant barrage of interruptions for years I'm noticing a change. Friends and people I follow have started to restrict which apps get to show so much as an unread-count badge.
 
 Many turn their smartphone back into a plain phone. Calls and messages get to make a noise, everything else is off. Further calls & messages are only allowed outside "Do Not Distrub" times.
 
@@ -15,7 +16,7 @@ Coming up with reasons to message your users is simple. Imagine a site to keep t
 
 This is not something I want for my users. It is not what I want for myself.
 
-Likes, upvotes, and karma are the other side of the same coin. They try to keep us engaged with something longer than needed or even healthy.  
+Likes, upvotes, and karma are the other side of the same coin. They try to keep us engaged with something longer than needed or even healthy.
 Using the example above, I could add a count of how many hours you watched TV and compare that with other users. Watching a show should be a form of enjoyment or relaxation not something you feel you have to do or compete at. It should be on your own terms. How we design these things has a big influence on our customers.
 
 I see it as our obligation as designers/makers to build products which respect our users time and attention. Make every form of interruption opt-in. Don't try to add fictional internet points and social to everything.

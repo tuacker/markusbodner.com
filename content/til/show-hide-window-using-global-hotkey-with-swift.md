@@ -1,10 +1,10 @@
-+++
-date = "2021-02-08T13:10:50+02:00"
-draft = false
-tags = ["Swift", "macOS", "XCode", "Programming"]
-title = "Use global keyboard hotkey to show/hide a window using Swift"
-images = ["/images/global-keyboard-shortcut.png"]
-+++
+---
+date: "2021-02-08T13:10:50+02:00"
+draft: false
+tags: ["Swift", "macOS", "XCode", "Programming"]
+title: "Use global keyboard hotkey to show/hide a window using Swift"
+images: ["/images/global-keyboard-shortcut.png"]
+---
 
 Here I'll show you how to show/hide a window using a global keyboard hotkey/shortcut, similar to how Spotlight or Alfred work, on macOS using Swift.<!--more--> I needed this for myself with the following requirements:
 

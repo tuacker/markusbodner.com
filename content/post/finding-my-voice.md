@@ -6,6 +6,7 @@ tags: ["Personal"]
 images: ["/images/joao-cruz-1082512-unsplash.jpg"]
 draft: false
 ---
+
 Almost four years ago I started this blog to share my journey, but aside from a few technical posts that didn't quite pan out. Until recently I wasn't really aware why that is, why it is so difficult for me to share my ideas. Now I think I know why and can take steps to improve.<!--more-->
 
 Growing up I've always been a bit misplaced in my more traditional surroundings. As such my opinions were often shut down quick and sometimes harsh. Combined with my introversion this caused me to become a silent party. I'd only say something when I was addressed directly and even then keep replies short, with the occasional funny quip.

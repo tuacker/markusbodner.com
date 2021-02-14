@@ -1,13 +1,13 @@
-+++
-date = "2016-03-27T12:46:38+02:00"
-draft = false
-tags = ["phoenix-framework", "Elixir", "Programming"]
-title = "Custom titles per view or controller actions in Phoenix Framework"
-images = ["/images/nick-fewings-642060-unsplash.jpg"]
-aliases = [
-  "/2016/03/27/custom-titles-per-view-or-controller-actions-in-phoenix-framework/"
-]
-+++
+---
+date: "2016-03-27T12:46:38+02:00"
+draft: false
+tags: ["phoenix-framework", "Elixir", "Programming"]
+title: "Custom titles per view or controller actions in Phoenix Framework"
+images: ["/images/nick-fewings-642060-unsplash.jpg"]
+aliases:
+  - "/2016/03/27/custom-titles-per-view-or-controller-actions-in-phoenix-framework/"
+---
+
 Phoenix offers the `render_existing/3` function, which tries to render the template for the provided module, or returns `nil` if the template doesn't exist. We can use this to create custom titles or even JavaScript includes on a per-view basis.<!--more-->
 
 In your existing phoenix project open up your `MyApp.LayoutView` usually located in `views/layout_view.ex` and add the following.

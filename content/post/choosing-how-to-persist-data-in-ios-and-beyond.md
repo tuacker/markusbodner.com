@@ -1,10 +1,10 @@
-+++
-date = "2017-05-16T20:53:04+02:00"
-draft = false
-tags = ["iOS", "Swift", "XCode", "Realm"]
-title = "Choosing how to persist data in iOS (and beyond)"
-images = ["/images/samuel-zeller-118195-unsplash.jpg"]
-+++
+---
+date: "2017-05-16T20:53:04+02:00"
+draft: false
+tags: ["iOS", "Swift", "XCode", "Realm"]
+title: "Choosing how to persist data in iOS (and beyond)"
+images: ["/images/samuel-zeller-118195-unsplash.jpg"]
+---
 
 In one of my iOS projects I had to figure out how I store data. There are several ways, all with their pros and cons. Let's look at a few of them and what I ended up with. Here is what I reviewed:
 

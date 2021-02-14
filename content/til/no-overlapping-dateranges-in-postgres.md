@@ -6,6 +6,7 @@ tags: ["Postgres", "TIL"]
 draft: false
 images: ["/images/eric-rothermel-23788-unsplash.jpg"]
 ---
+
 Lets say we have several rooms, and every room has reservations. We do not want the reservations to overlap, ever. Here's how we add that check to a table in PostgreSQL.<!--more-->
 
 The following will make sure no `start_date` and `end_date` overlaps, but completely ignores the check on the room for now.

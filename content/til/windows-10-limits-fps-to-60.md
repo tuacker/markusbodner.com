@@ -1,13 +1,12 @@
-+++
-date = "2015-07-26T12:55:02+02:00"
-draft = false
-tags = ["Games", "windows-10"]
-title = "How to fix Windows 10's 60 FPS limit and Input Lag"
-images = ["/images/ugur-akdemir-238673-unsplash.jpg"]
-aliases = [
-  "/2015/07/26/how-to-fix-windows-10s-60-fps-limit-and-input-lag/"
-]
-+++
+---
+date: "2015-07-26T12:55:02+02:00"
+draft: false
+tags: ["Games", "windows-10"]
+title: "How to fix Windows 10's 60 FPS limit and Input Lag"
+images: ["/images/ugur-akdemir-238673-unsplash.jpg"]
+aliases:
+  - "/2015/07/26/how-to-fix-windows-10s-60-fps-limit-and-input-lag/"
+---
 
 If you've just upgraded to Windows 10 you might find that your games are suddenly feeling sluggish or slower than usual. The reason for this is the integrated XBOX DVR functionality.
 

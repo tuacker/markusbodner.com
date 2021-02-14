@@ -6,6 +6,7 @@ tags: ["Phoenix Framework", "Elixir", "TIL"]
 images: ["/images/tamara-menzi-275952-unsplash.jpg"]
 draft: false
 ---
+
 By default the Elixir Phoenix path helpers use the `:id` key. For example: `property_path(conn, :show, property)` would turn into `/properties/1`. If you want to use a different key inside the property use the `Phoenix.Param` protocol in the `schema` definition.<!--more-->
 
 ```elixir

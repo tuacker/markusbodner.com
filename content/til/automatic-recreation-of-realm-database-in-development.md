@@ -1,13 +1,12 @@
-+++
-date = "2017-05-18T14:23:03+02:00"
-draft = false
-tags = ["iOS", "Swift", "XCode", "Realm", "Programming"]
-title = "Automatic recreation of Realm DB during development"
-images = ["/images/max-nelson-492729-unsplash.jpg"]
-aliases = [
-  "/2017/05/18/automatic-recreation-of-realm-db-during-development/"
-]
-+++
+---
+date: "2017-05-18T14:23:03+02:00"
+draft: false
+tags: ["iOS", "Swift", "XCode", "Realm", "Programming"]
+title: "Automatic recreation of Realm DB during development"
+images: ["/images/max-nelson-492729-unsplash.jpg"]
+aliases:
+  - "/2017/05/18/automatic-recreation-of-realm-db-during-development/"
+---
 
 In a [previous devlog]({{< relref "choosing-how-to-persist-data-in-ios-and-beyond.md" >}}) I mentioned choosing [Realm](https://realm.io) as backend for a project. I like it so far, but there has been a minor nuisance. During early development the layout of the DB changes all the time.<!--more-->
 
