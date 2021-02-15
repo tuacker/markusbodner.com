@@ -23,4 +23,4 @@ For this week I plan to add persistence, that is, saving entries to disk. I'll p
 
 For now, this is how Blip looks at this point:
 
-![screenshot of blip showing the new-entry window with a textbox an up and downvote button as well as a save button](/images/blip-week-1-screenshot.png)
+![the blip new-entry window with a textbox an up and downvote button as well as a save button](/images/blip-week-1-screenshot.png)

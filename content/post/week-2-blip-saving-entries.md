@@ -23,4 +23,4 @@ Biggest road-block this week was (Swift) Combine and how to combine that with Sw
 
 Here is a video of saving an entry and how the app looks this week:
 
-![video showing an entry being saved in the Blip app and then the saved record being selected in SQLite](/videos/2021-02-12-blip-persistence.mp4)
+![an entry being saved in the Blip app and then the saved record being selected in SQLite](/videos/2021-02-12-blip-persistence.mp4)
