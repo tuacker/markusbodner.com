@@ -86,7 +86,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
       newEntryPanel.center()
 
       // Shows the panel and makes it active
-      newEntryPanel.makeKeyAndOrderFront(nil)
+      newEntryPanel.orderFront(nil)
+      newEntryPanel.makeKey()
   }
 
   func applicationWillTerminate(_ aNotification: Notification) {
