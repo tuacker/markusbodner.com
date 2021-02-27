@@ -10,7 +10,7 @@ SwiftUI redraws every view affected by a state change. If you are not careful th
 
 Let's look at an example. Here is the entry panel for Blip. I attached a background with a randomized color on every UI element. As I type there is an explosion of colors!
 
-![on every keystroke every label, input and button gets a new background color, the whole UI is flashing](/videos/swiftui-redraw-before.mp4)
+{{< video src="/videos/swiftui-redraw-before.mp4" alt="on every keystroke every label, input and button gets a new background color, the whole UI is flashing" >}}
 
 What is going on there? Well, in my case: rookie mistakes. I was keeping my entire state in a single struct like this.
 
@@ -55,6 +55,6 @@ You can use this on everything that accepts a background, which is pretty much a
 
 And finally, here's how the UI behaves after implementing my fixes:
 
-![unlike before, the colors are no longer flashing because the UI isn't redrawing on every keystroke](/videos/swiftui-redraw-after.mp4)
+{{< video src="/videos/swiftui-redraw-after.mp4" alt="unlike before, the colors are no longer flashing because the UI isn't redrawing on every keystroke" >}}
 
 Much better.

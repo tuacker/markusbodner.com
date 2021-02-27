@@ -11,7 +11,7 @@ This week ended with a big annoyance — and I still have no idea how to fix it.
 
 All I wanted to accomplish was to list out every entry in a list so you can view it and copy the text. Sounds easy right? Not so fast. Somehow, for an unexplainable reason I can't get long text to wrap around properly. Either the text gets truncated or the lines get cut off.
 
-![as the window is resized, longer text in the view is either truncated or cut off, depending on different code strategies (which are not shown in the video)](/videos/blip-resizing-bug.mp4)
+{{< video src="/videos/blip-resizing-bug.mp4" alt="as the window is resized, longer text in the view is either truncated or cut off, depending on different code strategies (which are not shown in the video)" >}}
 
 I've tried every StackOverflow and search query I could think of. No dice. Either I am misunderstanding how SwiftUI works in this regard or the version I am using is bugged. May have to download Big Sur and install it on a separate partition just to check.
 

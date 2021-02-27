@@ -14,7 +14,7 @@ One thing I needed recently is a multi-step form for a specific flow. I thought 
 
 **Note: This post was written for one of the first versions of LiveView. A lot has changed by now and this example won't work as-is. The general concepts should remain the same though.** I hope to update this tutorial at some point.
 
-![Video showing the multi-step flow](/videos/form_live_view_steps_test.mp4)
+{{< video src="/videos/form_live_view_steps_test.mp4" alt="Video showing the multi-step flow" >}}
 
 ## Implementation
 I will talk about the view template as well as the actual code managing it here. If you want to see a step-by-step from a fresh Phoenix project to the final result you can go through my [commits](https://github.com/tuacker/phoenix_live_view_form_steps/commits/master) from oldest to newest.

@@ -11,15 +11,15 @@ I ended [last week]({{< relref "week-3-blip-what-the-fuck.md" >}}) with a bit of
 
 It all started with a simple problem: Display entries in a list. Huh, can't be that hard right?
 
-![showing a list of text in a window with a scrollbar, as the window resizes text gets truncated](/videos/lists-old-SwiftUI-no-resize.mp4)
+{{< video src="/videos/lists-old-SwiftUI-no-resize.mp4" alt="showing a list of text in a window with a scrollbar, as the window resizes text gets truncated" >}}
 
 Here I'm using an old version of SwiftUI because I want macOS Catalina to be supported by the app. Maybe I am doing something wrong? I spent a good day looking for solutions, yet the end results with every attempt end up like the next video. With one exception, where I drop down to AppKit entirely.
 
-![same list as in the above video, but as the window resizes text re-flows but lines get cut off and become unreadable](/videos/lists-old-SwiftUI-broken-resize.mp4)
+{{< video src="/videos/lists-old-SwiftUI-broken-resize.mp4" alt="same list as in the above video, but as the window resizes text re-flows but lines get cut off and become unreadable" >}}
 
 Then it hit me: maybe this is a bug with SwiftUI. Give it a try with a new version. I download and install  Big Sur on a separate volume — and yes, it is a bug! So there I am thinking about making macOS Big Sur the minimum. I play around with the list a bit more. Turns out with bigger lists the performance gets really bad. This here is just 100 entries. Look at the scroll-bar as I navigate using the keyboard in the second part of the video.
 
-![same list again, resizing works as expected, but as I scroll through the list the animation gets choppy and the scroll-bar indicator jumps around like crazy](/videos/lists-new-SwiftUI-broken-scroll.mp4)
+{{< video src="/videos/lists-new-SwiftUI-broken-scroll.mp4" alt="same list again, resizing works as expected, but as I scroll through the list the animation gets choppy and the scroll-bar indicator jumps around like crazy" >}}
 
 The performance of the list gets so much worse with a few more items. And it's not like there is a lot I could be doing wrong here. All examples are like 10 lines of code!
 
@@ -38,7 +38,7 @@ struct SummaryView: View {
 
 Looking around a bit more I discovered ScrollView+LazyVStack (Big Sur+ only). And the performance of that is a dream. Even with thousands of entries everything remained smooth as butter.
 
-![same list once more, this time using a lazy-v-stack in SwiftUI and performance is great](/videos/lists-lazyVStack.mp4)
+{{< video src="/videos/lists-lazyVStack.mp4" alt="same list once more, this time using a lazy-v-stack in SwiftUI and performance is great" >}}
 
 But. BUT! There is no selection and no keyboard navigation (so many "but"'s this past week).
 
