@@ -1,5 +1,5 @@
 ---
-title: "Week 3 - Blip - Bye SwiftUI"
+title: "Week 4 - Blip - Bye SwiftUI"
 description: "As a result of last week I decided to drop SwiftUI. At least for now"
 date: 2021-02-27T09:10:15+01:00
 tags: ["Blip", "Devlog"]
