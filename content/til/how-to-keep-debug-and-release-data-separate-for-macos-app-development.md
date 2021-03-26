@@ -6,13 +6,13 @@ title: "How to keep debug & release data separate for macOS app development"
 images: ["/images/pexels-markus-spiske-1679618.jpg"]
 ---
 
-There is a good chance that you would like to use the app you are developing for yourself. There is a small problem though: debug/test data and your day-to-day use of the app use the same data locations.<!--more-->
+You most likely are going to use the app you are developing for yourself. There is a small problem though: debug/test builds and your release version use the same data.<!--more-->
 
 For macOS apps the UserDefaults and other application-data is commonly stored under a bundle-identifier. For sandboxed apps that'd be in `~/Library/Containers/your.identifier.App`. The issue then is that both Xcode/debug builds and your actual use of the release version use this same location.
 
 While you could use `#if DEBUG` directives to store app-data somewhere else this is harder to do for UserDefaults.
 
-I'll show you two ways how to configure a different bundle-identifier for debug & release builds in Xcode. A faster one and a more involved, but better documented approach.
+I'll show you two ways how to configure a different bundle-identifiers for debug & release builds in Xcode. A faster one and a more involved, but better documented approach.
 
 ## Option 1: Quick and easy
 
@@ -45,9 +45,10 @@ ORGANIZATION_NAME = com.supra
 // You could also set it via "PRODUCT_NAME = Dupra" in here
 //
 // If you do that make sure to also delete that value in the Build Settings, same as with the "PRODUCT_BUNDLE_IDENTIFIER".
+
 PRODUCT_BUNDLE_IDENTIFIER = $(ORGANIZATION_NAME).$(PRODUCT_NAME)
 
-// Set other things as you'd like..
+// Set other things as you like..
 
 ```
 
@@ -68,7 +69,7 @@ Go to your project settings, make sure the `Info` tab is selected. There under `
 
 
 ### Clear out existing Build Settings
-Finally we need to remove the already existing build Settings. Still in your project settings select the target and then open the `Build Settings` tab. There locate the `Project Bundle Identifier` value and delete it. The value should stop being in bold and immediately reflect what you configured in your xcconfig files.
+Finally we need to remove the already existing build settings. Still in your project settings select the target and then open the `Build Settings` tab. There locate the `Project Bundle Identifier` value and delete it. The value should stop being in bold and immediately reflect what you configured in your xcconfig files.
 
 ![showing before and after deleting the Project Bundle Identifier value](/images/xcode-split-debug-data-config/4-delete-config.png)
 
