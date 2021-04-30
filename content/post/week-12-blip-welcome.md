@@ -9,7 +9,7 @@ draft: false
 
 Bit laaaaate on that one. Forgot to write up the weekly review but here it is. Better late than never!<!--more-->
 
-*Side note before we begin: I do drudge writing these posts a little but they'll serve as a nice reminder in the future when I look back at how all of this started!*
+*Side note before we begin: I do dread writing these posts a little but they'll serve as a nice reminder in the future when I look back at how all of this started!*
 
 Managed to do most of what I set out [the previous week]({{< relref "week-11-blip-preferences.md" >}}), pretty good. Started out with the welcome screen on Monday. As expected, with everything I learned from implementing Preferences this was rather quick to set up and get going.
 
