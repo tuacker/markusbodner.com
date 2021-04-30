@@ -15,7 +15,7 @@ Managed to do most of what I set out [the previous week]({{< relref "week-11-bli
 
 After that I finally upgraded from macOS Catalina to Big Sur and spent the next two days or so to adjust small things here and there to get the app look good on Big Sur as well. I also set up a VM to keep testing Blip under Catalina.
 
-Another improvement was using a splitView for editing entries. Up until now it was just a view I'd show above the list of entries. This implementation now is more robust and as a bonus I also figured out how to stop the text input from polluting my undo history.
+Another improvement was using a splitView for editing entries. Up until now it was just a view I'd show above the list of entries. This implementation now is more robust and as a bonus I also figured out how to stop the text input from [polluting my undo history]({{< relref "prevent-nstextview-from-polluting-undo-history.md" >}}).
 
 Previously I had to clear the undo history after showing the editing view because it'd lead to a crash otherwise. Now I preserve the full history for as long as it makes sense.
 
