@@ -3,7 +3,7 @@ title: "Week 5 - Blip - Slow Progress"
 description: "Progress has been a bit slow for the past two weeks, but I have a feeling it'll pick up again next one"
 date: 2021-03-06T09:23:12+01:00
 tags: ["Blip", "Devlog"]
-images: ["/images/2021-03-06-summary-view.png"]
+images: ["/images/blip/2021-03-06-summary-view.png"]
 draft: false
 ---
 
@@ -30,7 +30,7 @@ Plan for the next week:
 
 And finally as has been usual in most of these posts so far, here is how the "summary view" looks at the moment. This is where you'll see all the entries you've made.
 
-![a list of entries made using the Blip app with the first entry selected. The mouse is hovering over the second entry which reveals the entry date](/images/2021-03-06-summary-view.png)
+![a list of entries made using the Blip app with the first entry selected. The mouse is hovering over the second entry which reveals the entry date](/images/blip/2021-03-06-summary-view.png)
 
 
 

@@ -3,7 +3,7 @@ title: "Week 11 - Blip - Preferences"
 description: "I now have preferences implemented. Getting close!!"
 date: 2021-04-17T10:04:01+02:00
 tags: ["Blip", "Devlog"]
-images: ["/images/2021-04-15-preferences.png"]
+images: ["/images/blip/2021-04-15-preferences.png"]
 draft: false
 ---
 
@@ -28,4 +28,4 @@ That last point in particular I am looking forward to. My artistic skills are...
 At last here is a somewhat boring screenshot of your average mac app preference window:
 
 
-![showing various preferences for the Blip application like setting a global hotkey, launching the app on login, etc.](/images/2021-04-15-preferences.png)
+![showing various preferences for the Blip application like setting a global hotkey, launching the app on login, etc.](/images/blip/2021-04-15-preferences.png)

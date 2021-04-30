@@ -3,7 +3,7 @@ title: "Week 12 - Blip - Welcome"
 description: "A welcome screen for blip and a new OS"
 date: 2021-04-30T12:22:01+02:00
 tags: ["Blip", "Devlog"]
-images: ["/images/2021-04-21-welcome-window.png"]
+images: ["/images/blip/2021-04-21-welcome-window.png"]
 draft: false
 ---
 
@@ -21,4 +21,4 @@ Previously I had to clear the undo history after showing the editing view becaus
 
 Here's how the welcome screen looks. I'll be adding the icon on the left side once I have it done:
 
-![welcome window reading Blip - A simple box two write along with an input for the license key and global hotkey to show blip and the option to launch blip at login](/images/2021-04-21-welcome-window.png)
+![welcome window reading Blip - A simple box two write along with an input for the license key and global hotkey to show blip and the option to launch blip at login](/images/blip/2021-04-21-welcome-window.png)

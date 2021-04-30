@@ -3,7 +3,7 @@ title: "Week 9 - Blip - Unexpected"
 description: "This week a family member fell sick and I had to take care of them which meant little time left for Blip."
 date: 2021-04-03T09:45:01+02:00
 tags: ["Blip", "Devlog"]
-images: ["/images/2021-04-03-ratings-in-summary-view.png"]
+images: ["/images/blip/2021-04-03-ratings-in-summary-view.png"]
 draft: false
 ---
 
@@ -23,4 +23,4 @@ So for next week I have the same planned as last week!
 And as is usual here is a screenshot of how the summary view looks now:
 
 
-![a couple of entries are shown, some of them have a heart-shaped icon and some a broken-heart shaped icon next to them to indicate the feeling associated with the entry](/images/2021-04-03-ratings-in-summary-view.png)
+![a couple of entries are shown, some of them have a heart-shaped icon and some a broken-heart shaped icon next to them to indicate the feeling associated with the entry](/images/blip/2021-04-03-ratings-in-summary-view.png)

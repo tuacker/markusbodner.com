@@ -3,7 +3,7 @@ title: "Week 7 - Blip - This and That"
 description: "They say the last 10% are the last 90%. That's where I'm at."
 date: 2021-03-22T09:08:01+01:00
 tags: ["Blip", "Devlog"]
-images: ["/images/2021-03-22-header-view.png"]
+images: ["/images/blip/2021-03-22-header-view.png"]
 draft: false
 ---
 
@@ -11,7 +11,7 @@ There is a saying that the last 10% are the last 90% and this past week felt lik
 
 I spent the week finally getting navigation to previous/next dates, or rather ranges (day/week/month/year) to work. And I added a header view that always shows you where in the day you are at:
 
-![showing todays entries with the header displaying the date and time at hour-precision for the current entries that are visible](/images/2021-03-22-header-view.png)
+![showing todays entries with the header displaying the date and time at hour-precision for the current entries that are visible](/images/blip/2021-03-22-header-view.png)
 
 The header always shows the current hour of all the entries that are below it, as you scroll it'll update. This way you'll always know where you are at the moment with just a glance.
 

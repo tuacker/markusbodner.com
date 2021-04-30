@@ -3,7 +3,7 @@ title: "Week 2 - Blip - Saving entries"
 description: "This week I've improved the up/down vote buttons and implemented data persistence"
 date: 2021-02-12T13:16:42+01:00
 tags: ["Blip", "Devlog"]
-images: ["/images/blip-week-2-screenshot.png"]
+images: ["/images/blip/blip-week-2-screenshot.png"]
 draft: false
 ---
 
@@ -23,4 +23,4 @@ Biggest road-block this week was (Swift) Combine and how to combine that with Sw
 
 Here is a video of saving an entry and how the app looks this week:
 
-{{< video src="/videos/2021-02-12-blip-persistence.mp4" alt="an entry being saved in the Blip app and then the saved record being selected in SQLite" >}}
+{{< video src="/videos/blip/2021-02-12-blip-persistence.mp4" alt="an entry being saved in the Blip app and then the saved record being selected in SQLite" >}}

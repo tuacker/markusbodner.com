@@ -3,7 +3,7 @@ title: "Week 10 - Blip - Editing entries"
 description: "Editing of entries now works, but progress remains a bit slower than wanted."
 date: 2021-04-09T13:18:11+02:00
 tags: ["Blip", "Devlog"]
-images: ["/images/2021-04-09-editing-entries.png"]
+images: ["/images/blip/2021-04-09-editing-entries.png"]
 draft: false
 ---
 
@@ -28,4 +28,4 @@ Plans for next week:
 
 And at last, here is a short video of me editing an entry:
 
-{{< video src="/videos/2021-04-09-editing-entries.mp4" alt="The first entry is right-clicked and a positive rating assigned via the context menu. After that the edit action is chosen and the entry is updated with some more text and a different rating" >}}
+{{< video src="/videos/blip/2021-04-09-editing-entries.mp4" alt="The first entry is right-clicked and a positive rating assigned via the context menu. After that the edit action is chosen and the entry is updated with some more text and a different rating" >}}

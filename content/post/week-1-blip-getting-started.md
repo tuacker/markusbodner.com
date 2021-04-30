@@ -3,7 +3,7 @@ title: "Week 1 - Blip - Getting started"
 description: "What I've set out to accomplish in this first week took a bit longer than expected, but I ended up with something nice."
 date: 2021-02-08T14:19:42+01:00
 tags: ["Blip", "Devlog"]
-images: ["/images/blip-week-1-screenshot.png"]
+images: ["/images/blip/blip-week-1-screenshot.png"]
 draft: false
 ---
 
@@ -23,4 +23,4 @@ For this week I plan to add persistence, that is, saving entries to disk. I'll p
 
 For now, this is how Blip looks at this point:
 
-![the blip new-entry window with a textbox an up and downvote button as well as a save button](/images/blip-week-1-screenshot.png)
+![the blip new-entry window with a textbox an up and downvote button as well as a save button](/images/blip/blip-week-1-screenshot.png)

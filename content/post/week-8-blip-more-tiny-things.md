@@ -3,7 +3,7 @@ title: "Week 8 - Blip - Beginnings of a configuration"
 description: "Working on saving user configuration and more little things making a good app"
 date: 2021-03-26T15:03:01+02:00
 tags: ["Blip", "Devlog"]
-images: ["/images/oudom-pravat-yQi4mAFmRew-unsplash.jpg"]
+images: ["/images/blip/oudom-pravat-yQi4mAFmRew-unsplash.jpg"]
 draft: false
 ---
 
@@ -21,7 +21,7 @@ The other big thing this week was saving preferences. Or the beginnings thereof.
 
 The last visible thing that happened this week was going to a specific date in the summary view. Overall the date and filter navigation is heavily adapted from the Calendar.app and should feel familiar.
 
-![](/images/2021-03-26-goto-date.png)
+![](/images/blip/2021-03-26-goto-date.png)
 
 For the next week I have the following planned:
 

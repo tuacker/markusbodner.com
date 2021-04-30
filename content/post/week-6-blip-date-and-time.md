@@ -3,7 +3,7 @@ title: "Week 6 - Blip - Date and Time"
 description: "This week revolved around showing entries at the correct date and time"
 date: 2021-03-12T17:39:00+01:00
 tags: ["Blip", "Devlog"]
-images: ["/images/2021-03-12-select-date.png"]
+images: ["/images/blip/2021-03-12-select-date.png"]
 draft: false
 ---
 
@@ -29,7 +29,7 @@ Given the progress the things I have planned for next week are:
 
 And to round off this weekly report, here is a video of the filtering and one for how the date selection works:
 
-{{< video src="/videos/2021-03-12-summary-view-nice.mp4" alt="First one entry for today is shown. The user then selects weekly and another entry appears, the same thing repeats for monthly and then yearly which reveals all entries made in the current year" >}}
+{{< video src="/videos/blip/2021-03-12-summary-view-nice.mp4" alt="First one entry for today is shown. The user then selects weekly and another entry appears, the same thing repeats for monthly and then yearly which reveals all entries made in the current year" >}}
 
-{{< video src="/videos/2021-03-12-select-date.mp4" alt="The user is making a new blip entry and then clicks on the current date below the input. This reveals a popover that allows the user to select a different date and time, which they do" >}}
+{{< video src="/videos/blip/2021-03-12-select-date.mp4" alt="The user is making a new blip entry and then clicks on the current date below the input. This reveals a popover that allows the user to select a different date and time, which they do" >}}
 
