@@ -21,9 +21,9 @@ disableKinds = ["section"]
   section  = ["HTML"]
 
 [permalinks]
-  post = ":year/:month/:day/:title/"
-  til = "til/:year/:month/:day/:title/"
-  quote = "quote/:year/:month/:day/:title/"
+  post = ":year/:month/:day/:slug/"
+  til = "til/:year/:month/:day/:slug/"
+  quote = "quote/:year/:month/:day/:slug/"
   page = ":filename/"
 
 [taxonomies]
