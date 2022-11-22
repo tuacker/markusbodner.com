@@ -7,3 +7,16 @@
 
 @import 'modules/dracula';
 // @import 'modules/style';
+
+
+// Other small things
+
+.archived-notice {
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+
+  border: 2px solid var(--color-text);
+  border-radius: var(--border-radius);
+  background-color: #ffde00;
+}
