@@ -35,12 +35,6 @@ disableKinds = ["section"]
   identifier = "post"
   url = "/"
 
-[[menu.main]]
-  name = "Gallery"
-  weight = 4
-  identifier = "gallery"
-  url = "/gallery/"
-
 [related]
   threshold = 80
   includeNewer = true
