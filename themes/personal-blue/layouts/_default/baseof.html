@@ -13,10 +13,10 @@
   <link rel="canonical" href="{{ .Permalink }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ .Title }}" href="{{ absURL "index.xml" }}" />
 
-  {{ $stylesheet := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "outputStyle" "compressed") | minify }}
+<!--   {{ $stylesheet := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/style.css" "outputStyle" "compressed") | minify }}
   {{ with $stylesheet }}
   <link rel="stylesheet" type="text/css" href="{{ .Permalink | relURL }}">
-  {{ end }}
+  {{ end }} -->
 
   <link rel="icon" type="image/png" href="{{ absURL "favicon.png" }}">
 
@@ -24,27 +24,36 @@
 </head>
 
 <body>
-  <nav class="main-nav">
-    {{ partial "menu.html" . }}
-  </nav>
+  <style>
+    :root {
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      --font-family-monospace: "Lucida Console", Monaco, monospace;
+      --font-size: 14px;
+      --line-height: 1.5;
+    }
 
-  <aside class="intro">
-    {{ with $author_name := .Site.Params.author.name }}
-    {{ $author_image := resources.Get (printf "%s/%s.jpg" "images" (replace $author_name " " "_" | lower)) }}
-    {{ $author_image := $author_image.Fit "144x144" }}
-    <a href="{{ $.Site.BaseURL }}" class="intro__image-link" title="Markus Bodner"><img src="{{ $author_image.RelPermalink }}" alt="Picture of {{ $author_name }}" class="intro__image"></a>
-    {{ end }}
-  </aside>
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+
+    img, video {
+      width: 100%;
+    }
+
+    html {
+      font-family: var(--font-family);
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+    }
+
+    .content {
+      width: 100%;
+      padding: 1rem;
+    }
+  </style>
 
   <main class="content">
     {{ block "main" . }}{{ end }}
   </main>
-
-  <footer class="footer">
-    <span>&copy; {{ .Site.Params.author.name }}</span>
-    <nav class="footer-nav">
-      {{ partial "menu.html" . }}
-    </nav>
-  </footer>
 </body>
 </html>
