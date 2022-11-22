@@ -8,32 +8,6 @@ body {
   &:hover { color: $blue-darker; }
 }
 
-// Intro ***********************************************************************
-.intro {
-  font-weight: 700;
-  color: $blue-darker;
-  text-align: center;
-
-  .intro__image {
-    display: none;
-  }
-
-  @media screen and (min-width: 1130px) {
-    text-align: inherit;
-
-    .intro__image {
-      display: inline-block;
-      width: 72px;
-      border-radius: 100%;
-    }
-
-    .intro__action {
-      display: block;
-      margin-top: 3rem;
-    }
-  }
-}
-
 // Post ************************************************************************
 .post {
   margin-bottom: 3rem;
