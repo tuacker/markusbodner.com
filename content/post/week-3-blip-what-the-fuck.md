@@ -4,7 +4,7 @@ description: "Not the best of weeks — ended it with being stuck on something t
 date: 2021-02-19T18:40:12+01:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/blip-week-3-screenshot.png"]
-draft: false
+draft: true
 ---
 
 This week ended with a big annoyance — and I still have no idea how to fix it. What I want to do seems so easy, but it isn't working.<!--more--> At this point I'm not sure if it is worth sticking with SwiftUI. Or if I should require Big Sur (and thus SwiftUI2 as a minimum) ... or switch to AppKit/Cocoa entirely.

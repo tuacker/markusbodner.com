@@ -4,7 +4,7 @@ description: "Slowly putting together a website"
 date: 2021-05-08T11:14:23+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-05-08-website.png"]
-draft: false
+draft: true
 ---
 
 I don't think I have "blanked" on making a website as much as I did for Blip this past week. I am getting somewhere now though.<!--more-->

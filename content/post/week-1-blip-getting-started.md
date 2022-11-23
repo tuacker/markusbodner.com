@@ -4,7 +4,7 @@ description: "What I've set out to accomplish in this first week took a bit long
 date: 2021-02-08T14:19:42+01:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/blip-week-1-screenshot.png"]
-draft: false
+draft: true
 ---
 
 Week 1 of working on Blip has been a huge boon to me. I've set out to create the basic "new entry" window. Now I thought that would take me 1-2 days tops. That turned out to be wrong and I've spent the entire week on getting just that done. That was frustrating.<!--more-->

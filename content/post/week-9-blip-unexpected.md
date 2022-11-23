@@ -4,7 +4,7 @@ description: "This week a family member fell sick and I had to take care of them
 date: 2021-04-03T09:45:01+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-04-03-ratings-in-summary-view.png"]
-draft: false
+draft: true
 ---
 
 A family member unexpectedly fell sick this week and I had to take care of them. As a result there was little time for Blip.<!--more-->

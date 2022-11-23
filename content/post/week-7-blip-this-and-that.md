@@ -4,7 +4,7 @@ description: "They say the last 10% are the last 90%. That's where I'm at."
 date: 2021-03-22T09:08:01+01:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-03-22-header-view.png"]
-draft: false
+draft: true
 ---
 
 There is a saying that the last 10% are the last 90% and this past week felt like that. Every little thing that I add needs various this and thats to feel like a real app.<!--more-->
