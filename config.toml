@@ -14,7 +14,7 @@ pygmentsUseClasses = true
 
 canonifyURLs = true
 
-disableKinds = ["section"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [outputs]
   home     = ["HTML", "RSS"]
