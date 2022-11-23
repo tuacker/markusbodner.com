@@ -4,7 +4,7 @@ description: "Working on saving user configuration and more little things making
 date: 2021-03-26T15:03:01+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/oudom-pravat-yQi4mAFmRew-unsplash.jpg"]
-draft: false
+draft: true
 ---
 
 More little things to set up and working on the app configuration this week.<!--more-->

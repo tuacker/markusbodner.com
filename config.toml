@@ -14,7 +14,7 @@ pygmentsUseClasses = true
 
 canonifyURLs = true
 
-disableKinds = ["section"]
+disableKinds = ["section", "taxonomy", "taxonomyTerm"]
 
 [outputs]
   home     = ["HTML", "RSS"]
@@ -34,12 +34,6 @@ disableKinds = ["section"]
   weight = 1
   identifier = "post"
   url = "/"
-
-[[menu.main]]
-  name = "Gallery"
-  weight = 4
-  identifier = "gallery"
-  url = "/gallery/"
 
 [related]
   threshold = 80

@@ -4,7 +4,7 @@ description: "Long time no update, I've since then released Blip and pushed an u
 date: 2021-07-02T14:01:00+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/raimond-klavins-dP5RKDUJqeU-unsplash.jpg"]
-draft: false
+draft: true
 slug: "week-15-22-blip-done-release-and-more"
 ---
 

@@ -24,29 +24,8 @@
 </head>
 
 <body>
-  <nav class="main-nav">
-    {{ partial "menu.html" . }}
-  </nav>
-
-  <aside class="intro">
-    {{ with $author_name := .Site.Params.author.name }}
-    {{ $author_image := resources.Get (printf "%s/%s.jpg" "images" (replace $author_name " " "_" | lower)) }}
-    {{ $author_image := $author_image.Fit "144x144" }}
-    <a href="{{ $.Site.BaseURL }}" class="intro__image-link" title="Markus Bodner"><img src="{{ $author_image.RelPermalink }}" alt="Picture of {{ $author_name }}" class="intro__image"></a>
-    {{ end }}
-
-    <p>Hi, I'm Markus. I'm building <a href="https://blipnotes.app">Blip</a> at the moment.</p> <p>Dummy trying to be himself.</p> <p>Into D&D, games, way too many tv shows & movies, the occasional sci-fi book, and space. Space is cool.</p> <p>Learning to trust myself. <span class="intro__action">{{- block "intro__action" . -}}Welcome!{{- end -}}</span></p>
-  </aside>
-
   <main class="content">
     {{ block "main" . }}{{ end }}
   </main>
-
-  <footer class="footer">
-    <span>&copy; {{ .Site.Params.author.name }}</span>
-    <nav class="footer-nav">
-      {{ partial "menu.html" . }}
-    </nav>
-  </footer>
 </body>
 </html>

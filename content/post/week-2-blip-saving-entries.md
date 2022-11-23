@@ -4,7 +4,7 @@ description: "This week I've improved the up/down vote buttons and implemented d
 date: 2021-02-12T13:16:42+01:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/blip-week-2-screenshot.png"]
-draft: false
+draft: true
 ---
 
 The second week working on Blip didn't quite start off as I wanted but I managed to turn it all around by the end of the week. Sweet!<!--more-->

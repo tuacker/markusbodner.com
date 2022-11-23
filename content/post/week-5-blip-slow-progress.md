@@ -4,7 +4,7 @@ description: "Progress has been a bit slow for the past two weeks, but I have a 
 date: 2021-03-06T09:23:12+01:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-03-06-summary-view.png"]
-draft: false
+draft: true
 ---
 
 These past two weeks progress has been a bit slow. Main reason was all the issues, and to be honest, annoyance I felt around [using SwiftUI]({{< relref "week-4-blip-bye-swiftui.md" >}}). That said, I think next week will be better again.<!--more-->

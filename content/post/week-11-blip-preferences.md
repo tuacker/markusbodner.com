@@ -4,7 +4,7 @@ description: "I now have preferences implemented. Getting close!!"
 date: 2021-04-17T10:04:01+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-04-15-preferences.png"]
-draft: false
+draft: true
 ---
 
 I think I am getting close to releasing a first version. Only one or two pieces functionality to go and some icons and website.<!--more-->

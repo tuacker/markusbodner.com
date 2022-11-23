@@ -1,10 +1,11 @@
 // Typography
 
 html {
-  font-family: $font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  color: $text-color;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+
+  color: var(--color-text);
 }
 
 h1, h2, h3, h4, h5 {
@@ -27,18 +28,32 @@ p { margin: 0 0 1rem 0; }
 
 pre {
   padding: 1rem;
-  border-radius: $border-radius;
+  border-radius: var(--border-radius);
   word-break: break-all;
 }
 
+// Inline code blocks not covered by Chroma
 code {
   word-break: break-all;
   white-space: pre-wrap;
   font-size: 0.8rem;
+
+  padding: 4px;
+
+  background-color: rgba(0,0,0,.03);
+  border-radius: var(--border-radius);
 }
 
 blockquote {
-  border-left: 4px solid $primary;
+  border-left: 4px solid var(--color-link);
   padding-left: 1rem;
   font-style: italic;
+}
+
+a { color: var(--color-link); }
+a:hover { color: var(--color-link-darker); }
+
+button {
+  font-size: 10px;
+  line-height: 1;
 }

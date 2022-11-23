@@ -4,7 +4,7 @@ description: "This week revolved around showing entries at the correct date and 
 date: 2021-03-12T17:39:00+01:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-03-12-select-date.png"]
-draft: false
+draft: true
 ---
 
 This weeks focus was on creating a summary view to show all entries. Took me a while to get going and it doesn't look like much at the moment, but there is progress!<!--more-->

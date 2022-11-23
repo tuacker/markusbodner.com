@@ -4,7 +4,7 @@ description: "A welcome screen for blip and a new OS"
 date: 2021-04-30T12:22:01+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-04-21-welcome-window.png"]
-draft: false
+draft: true
 ---
 
 Bit laaaaate on that one. Forgot to write up the weekly review but here it is. Better late than never!<!--more-->

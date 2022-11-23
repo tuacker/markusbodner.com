@@ -4,7 +4,7 @@ description: "Blip now has a fancy app icon. Nice!"
 date: 2021-04-30T12:27:01+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-04-27-app-icon.png"]
-draft: false
+draft: true
 ---
 
 Flexing my artistic skills this week to make a nice app and status-bar icon for Blip and more.<!--more-->

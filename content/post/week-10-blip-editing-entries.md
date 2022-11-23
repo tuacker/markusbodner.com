@@ -4,7 +4,7 @@ description: "Editing of entries now works, but progress remains a bit slower th
 date: 2021-04-09T13:18:11+02:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/2021-04-09-editing-entries.png"]
-draft: false
+draft: true
 ---
 
 It is now possible to edit entries in Blip, the rating is visible in the summary view and other little things that make the app feel like an app.<!--more-->

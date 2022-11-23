@@ -4,7 +4,7 @@ description: "As a result of last week I decided to drop SwiftUI. At least for n
 date: 2021-02-27T09:10:15+01:00
 tags: ["Blip", "Devlog"]
 images: ["/images/blip/yancy-min-842ofHC6MaI-unsplash.jpg"]
-draft: false
+draft: true
 ---
 
 I ended [last week]({{< relref "week-3-blip-what-the-fuck.md" >}}) with a bit of a downer. After a lot back and forth I have now dropped SwiftUI and gone back to good old AppKit/Cocoa. Which took me a while to get used to again.<!--more-->
