@@ -3,7 +3,7 @@
 
 name = "Personal Blue"
 license = "MIT"
-licenselink = "https://gitlab.com/tuacker/markusbodner.com/blob/master/themes/personal-blue/LICENSE"
+licenselink = "https://github.com/tuacker/markusbodner.com/blob/master/themes/personal-blue/LICENSE"
 description = "A blue-ish theme for my personal website"
 homepage = "https://www.markusbodner.com"
 tags = []
