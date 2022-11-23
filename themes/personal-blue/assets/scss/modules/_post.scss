@@ -5,3 +5,14 @@
 .post__title a { text-decoration: none; }
 
 .post__info { color: var(--color-text-light); }
+
+
+.archived-notice {
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+
+  border: 2px solid var(--color-text);
+  border-radius: var(--border-radius);
+  background-color: #ffde00;
+}
