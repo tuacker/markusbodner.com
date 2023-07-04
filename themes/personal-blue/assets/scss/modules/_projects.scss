@@ -1,0 +1,38 @@
+.projects {
+  margin-top: 25vh;
+}
+
+@media screen and (min-width: calc(700px + 20rem)) {
+  .projects {
+    padding-left: calc(10rem + 72px + 1rem); /* intro image + padding */
+    padding-right: 10rem;
+
+    margin-bottom: 6rem;
+  }
+}
+
+.projects__intro, .projects__outro {
+  margin-bottom: 6rem;
+
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--color-text-light);
+}
+
+
+.project__listing {
+  max-width: 700px;
+  margin-bottom: 6rem;
+}
+
+.project__header {
+  margin-bottom: 1rem;
+
+  h2 { color: var(--color-link-dark); }
+}
+
+.project__tech {
+  font-size: 0.85rem;
+  font-family: var(--font-family-monospace);
+  color: var(--color-text-light);
+}
